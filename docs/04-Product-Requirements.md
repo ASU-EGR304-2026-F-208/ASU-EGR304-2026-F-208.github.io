@@ -47,7 +47,7 @@ The **P1 - P10** is the "code" to indicate the priority of the specification, fr
 * 1.4. Outlets should be generously spaced to allow multiple configurations of power connectors and device power cables. <br>   
     * 1.4.1 Device outlets must be generously spaced to allow larger laptop power supply bricks(P4).<br>
 * 1.5. Plug should be low profile and angled to fit behind furniture.<br>
-    * 1.5.1 Power plug must be angled at 90 degrees and be a maximum of half an inch away from the wall when plugged in(P7).<br>
+    * 1.5.1 Power plug head must be angled at 90 degrees from the cord and be a maximum of half an inch away from the wall when plugged in(P7).<br>
 
 **Software / Functionality**<br>
 * 2.1 The functionality of the product must not rely on an app for control, and should have multiple avenues for control.<br>
