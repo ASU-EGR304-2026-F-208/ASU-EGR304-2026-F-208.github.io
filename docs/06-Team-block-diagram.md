@@ -6,24 +6,22 @@ title: Team Block Diagram
 
 ## Introduction
 The team block diagram demonstrates how each PIC Curiosity Nano micocontroller will take in analog signals, filter them, and process them through specific input pins, and which pins will output to analog devices or digital pins. Finally the diagram shows how we will communicate across microcontrollers using the 8 pin ribbon connectors. <br>
-
-## First Draft
-![Team Block Diagram](Team203BlockDiagram.jpeg)
-The diagram shown above was our first attempt at a simplifcation of our idea into a demo where each microcontroller has at least one analog sensor or actuator with the required filters, amplifiers, or drivers.
-
-**Notes from this iteration:**<br>
- 1. We didn't realize our boards all needed to communicate to at least one other board.<br>
- 2. Manny's board was initially planned to include a motor with a door latch solenoid, plus limit switches to determine when the door was open or closed.<br>
- 3. We believed it necessary to have both a voltage sensor and a current sensor. <br>
  
-## Latest Iteration
-![Team Block Diagram](Team203BlockDiagram2.png)
+## Final Iteration
+Below is our finalized team block diagram. The components listed reflect the parts we planned to use for our design, but due to ordering delays and sudden unexpected changes in manufacturing, some were not able to arrive on time and had to be changed for alternative parts.
+
+<object data="https://egr304-203.github.io/sparkguard/Team203BlockDiagramFinal.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://egr304-203.github.io/sparkguard/Team203BlockDiagramFinal.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://egr304-203.github.io/sparkguard/Team203BlockDiagramFinal.pdf">Download PDF</a>.</p>
+    </embed>
+</object><br><br>
 
 **Notes from this iteration:**<br>
 1. All boards send/receive some sort of communication<br>
 2. Functionality is simplified and aligns with updated design direction.<br>
-3. Current sensor is all that is required to calculate power with a constant voltage.<br>
-4. Updated microphone sensor path from Manny's individual block diagrams with details<br>
+3. Current sensor was added to meet power calculation requirements with a constant voltage.<br>
+4. Updated microphone sensor path with individual diagram details<br>
+5. Corrected format errors from previous diagram.<br>
 
 ### Team Connectors
 ![Team Connectors](teamconnectors.jpg)
@@ -31,7 +29,7 @@ The diagram shown above was our first attempt at a simplifcation of our idea int
 Attached [here](Team Connectors.xlsx) is a link to the above excel sheet we developed with further details on the 8 pin connections between subsystems shown on our latest block diagram.
 
 ## Decision making process
-We structured our block diagram to accurately show the inputs and outputs of our boards and which pins and what type of communication we are using between boards.
+We structured our block diagram to accurately show the inputs and outputs of our boards, which pins are being used, and what type of communication we are using between boards.
 
 The result of this is three separate boards each with female 8 pin connectors that are all going to be connected together. "Connector 1" represents an input connector "Connector 2" represents an output connector.
 

@@ -12,12 +12,14 @@ Our current software proposal meets our requirements of localized control, voice
 3. What better represents our logic: activity diagram or state machine diagram?
 
 ## Software Diagram
-![Software logig diagram](Softwarediagram.jpg)<br>
-**Figure 1:** Software proposal logic diagram<br>
 
-![Software logic diagram](Softwarediagram2.jpg)
-**Figure 2:** Updated software proposal logic diagram.<br>
-We felt that an updated diagram was warranted since our team felt that the logic did not have an end as it is always running in a continuous repeating loop that is checking to see if the required conditions are met to take action.
+<object data="https://egr304-203.github.io/sparkguard/Team203SoftwareBlockDiagram.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://egr304-203.github.io/sparkguard/Team203SoftwareBlockDiagram.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://egr304-203.github.io/sparkguard/Team203SoftwareBlockDiagram.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+**Figure 1:** This is our finalized software diagram. It has been updated to reflect our proven prototype features that we developed during testing, and any errors found during this period have been removed from our design.<br><br>
+
 
 ## Results (answers to research questions) 
 1. Our logic does not have an end as it loops continuously as long as the design is being powered.
