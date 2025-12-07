@@ -38,28 +38,27 @@ The **P1 - P10** is the "code" to indicate the priority of the specification, fr
 * 1.1. Product should be easy to stow away without messing with long wires.<br>
     * 1.1.2 Device should be compact enough to carry it with one hand(P7).<br>
 * 1.2. Product needs to be sturdy, in order to withstand impacts and the being dropped ocasionally.<br>
-    * 1.2.2 Device should withstand being dropped from shoulder height multiple times(P5).<br>
+    * 1.2.2 Device should withstand being dropped from shoulder height 10 times in a row(P5).<br>
 * 1.2. Product needs to be weather resitant to protect the delicate internal electronics from changes in temperature, water intrussion, and constant UV light exposure.<br>
     * 1.2.1 Device must be IP-65 or IP-66 rated(P2).<br>
 * 1.3. Product should have mounting holes on its base to allow multiple mounting options.<br>
     * 1.3.1 Device should have spaced out holes for wall mounting and desk mounting(P7).<br>
 * 1.4. Product should provide a combination of power outlets such as NEMA 5-15 and USB A outlets to power various appliances.<br>
 * 1.4. Outlets should be generously spaced to allow multiple configurations of power connectors and device power cables. <br>   
-    * 1.4.1 Device outlets must be generously spaced to allow multiple power connector configurations(P4).<br>
+    * 1.4.1 Device outlets must be generously spaced to allow larger laptop power supply bricks(P4).<br>
 * 1.5. Plug should be low profile and angled to fit behind furniture.<br>
-    * 1.5.1 Device plug must be angled at 90 degrees and be as thin as possible(P7).<br>
+    * 1.5.1 Power plug must be angled at 90 degrees and be a maximum of half an inch away from the wall when plugged in(P7).<br>
 
 **Software / Functionality**<br>
-* 2.1 The fucntionality of the product must not rely on an app for control, and should have multiple avenues for control.<br>
-    * 2.1.1 Device must have redundancy in case of one of the control methods failing. This would allow the devivice to continue working in case of failure(P3).<br>
-* 2.1. The control should be redundant and operation of the device should automatically resume on the last known good setting in case of a power outage or spike.<br>
-* 2.2. The setup and configuration should be eassily setup in under 5 minutes.<br>
+* 2.1 The functionality of the product must not rely on an app for control, and should have multiple avenues for control.<br>
+    * 2.1.1 Device must have an secondary method of control in case of failure. This would allow the device to be controllable in case the primary method fails(P3).<br>
+* 2.1. The device should automatically restart and resume on the last known good setting in case of a power outage or spike.<br>
+* 2.2. The setup and configuration should take and average of 5 minutes or less.<br>
     * 2.2.1 Device should be configurable and operable in less than 5 minutes(P5).<br>
-* 2.2. Instruction manual should be clear and detailed.<br>   
 * 2.3. Product should allow user to manually program it from the device without the need explicit of an external source, such as a mobile app.<br>
     * 2.3.1 Device must allow for manual physical control and programming(P3).<br>
-* 2.4. Multiple devices might be grouped together in order to control them simultaneously.<br>
-    * 2.4.1 Device should allow for control grouping with additional surge protector products of its kind.<br>
+* 2.4. Multiple devices may be grouped together in order to control them simultaneously.<br>
+    * 2.4.1 Device should allow for control grouping of one additional surge protector of its kind(P6).<br>
 
 **Interactivity & User Experience**<br>
 * 3.1. Product should educate the user about their power consumption.<br>
@@ -68,10 +67,9 @@ The **P1 - P10** is the "code" to indicate the priority of the specification, fr
     * 3.2.1 Device must display data visually to the customer(P6).<br> 
 * 3.3. User should be able to individually control each outlet of the product.<br>
     * 3.3.1 Device outlets should be individually controller by the user(P4).<br>
-* 3.4. Product should have voice assistant integration for esy control.<br>
-    * 3.4.1 Device must have voice control integration with a common use assistant such as Google Assistant, Amazon Alexa, Microsoft Cortana, and Siri(P6).<br>
+* 3.4. Product should be operable by any idividual from 18 years or older(P1).<br>
 * 3.5. Product should have easily communicate to the customer which outlets are on or off without an app.<br>
-    * 3.5.1 Device must have LED indicators to show which outlets are on and which are off(P5).<br>
+    * 3.5.1 Device must have an indicator to show power on and off state of each outlet(P5).<br>
 
 **Customization**<br>
 * 4.1 The product shall allow the user to use multiple control methods and be able to program the device by editing the code we develop to run customized routines.<br>
@@ -103,11 +101,11 @@ The **P1 - P10** is the "code" to indicate the priority of the specification, fr
 * 6.1 Product shall protect against overcurrent.<br>
     * 6.1.1 Device includes automatic shutoff when current exceeds rated current(TBD); recovery requires manual reset(P1).<br>
 * 6.2 Product shall protect against short circuits.<br>
-    * 6.2.1 IEC 62368-1 compliant(P1).<br>
+    * 6.2.1 IEC 62368-1 compliant(P2).<br>
 * 6.3 Product shall filter the current to prevent spikes that may damage electrical components.<br>
     * 6.3.1 Includes EMI filters and transient voltage suppressors that reduce spikes to below 5% of rated current (TBD), verified via oscilloscope(P1).<br>
 * 6.4 Product automatically limits current to what each port can deliver.<br>
-    * 6.4.1 Product includes a 20 amp fuse.
+    * 6.4.1 Product includes a 20 amp fuse(P1).
 * 6.5 Product dissipates heat so it does not become a fire hazard with high current usage.<br>
     * 6.5.1 Product operates between 32 - 122 degrees F(P2).<br>
     * 6.5.2 Product does not exceed 122 degrees F during intended use(P2).<br>
