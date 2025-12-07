@@ -21,7 +21,14 @@ Below is the process that we went through in order to come up with these feature
 Our brainstorming process took place over two videoconference meetings on Zoom, supplemented by several informal follow-up conversations. All team members participated in these sessions, and ideas were documented to ensure a shared record of contributions.
 
 To collect ideas, we used Lucid’s brainstorming diagram tool, which allowed us to visually map, expand, and organize potential features. We drew heavily from the “Product Requirements” team assignment, where we had compiled requirements based on customer feedback and reviews of comparable products. These reviews provided an important external perspective on user needs and common challenges, which we combined with our team’s own requirements list and insights from brainstorming. Together, these sources gave us a pool of more than 100 possible features.<br><br>
-![Brainstorming All](Brainstormingwhole.jpeg)<br><br>
+
+
+<object data="https://egr304-203.github.io/sparkguard/Brainstormingwhole.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://egr304-203.github.io/sparkguard/Brainstormingwhole.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://egr304-203.github.io/sparkguard/Brainstormingwhole.pdf">Download PDF</a>.</p>
+    </embed>
+</object><br><br>
+
 Once we had compiled the initial list, we grouped features into categories to clarify their purpose and relationships. The groups included Control & Monitoring, Hardware Features, Power & Performance, Connectivity & Compatibility, User Interface & Experience, Reliability & Safety, Affordability & Sustainability, and Advanced Features. These categories reflected different dimensions of the product’s functionality, usability, and market positioning. For example, Control & Monitoring encompassed how users interact with the device and observe its status, while Hardware Features captured the physical and electrical build of the product. Similarly, categories like Reliability & Safety emphasized protections and standards, and Affordability & Sustainability reflected both cost and environmental considerations.<br>
 
 After grouping, we applied a ranking process to evaluate which ideas were most essential to the core goals of the project. By ordering features from most to least critical, we identified a set of “Core Features” that would form the foundation of the base product model. Additional features were then layered on to define more advanced product variations. This ranking exercise allowed us to balance innovation and user comfort with practical considerations such as feasibility and cost. The structured approach ensured that our design process emphasized both creativity and pragmatism, while giving us flexibility to differentiate across product tiers.<br>
