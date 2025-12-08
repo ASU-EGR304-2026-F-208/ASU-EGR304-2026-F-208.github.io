@@ -33,6 +33,7 @@ The voice-activated solenoid lid kept unused outlets locked for safety, while th
 The **P1 - P10** is the "code" to indicate the priority of the specification, from low to high priority. Our product design will be based on current market offerings for smart surge protectors, with improvements that adhere to the following criteria and specifications. 
 
 **Hardware / Product Design**<br>
+
 * 1.1. Product should be compact, light, and easily portable to allow our customers to easily relocate it as needed.<br>
     * 1.1.1 Device should weith three pounds or less(P7).<br>
 * 1.1. Product should be easy to stow away without messing with long wires.<br>
@@ -50,6 +51,7 @@ The **P1 - P10** is the "code" to indicate the priority of the specification, fr
     * 1.5.1 Power plug head must be angled at 90 degrees from the cord and be a maximum of half an inch away from the wall when plugged in(P7).<br>
 
 **Software / Functionality**<br>
+
 * 2.1 The functionality of the product must not rely on an app for control, and should have multiple avenues for control.<br>
     * 2.1.1 Device must have an secondary method of control in case of failure. This would allow the device to be controllable in case the primary method fails(P3).<br>
 * 2.1. The device should automatically restart and resume on the last known good setting in case of a power outage or spike.<br>
@@ -61,6 +63,7 @@ The **P1 - P10** is the "code" to indicate the priority of the specification, fr
     * 2.4.1 Device should allow for control grouping of one additional surge protector of its kind(P6).<br>
 
 **Interactivity & User Experience**<br>
+
 * 3.1. Product should educate the user about their power consumption.<br>
     * 3.1.1 Device should provide information to the user about their power consumption(P6).<br>
 
@@ -76,10 +79,11 @@ The **P1 - P10** is the "code" to indicate the priority of the specification, fr
     * 3.5.1 Device must have an indicator to show power on and off state of each outlet(P5).<br>
 
 **Customization**<br>
-- 4.1. The product shall allow the user to use multiple control methods and be able to program the device by editing the code we develop to run customized routines.<br>
-    - 4.1.1 Device supports three control interfaces: physical buttons with a screen to display information, mobile app, and web interface(P3).<br>
-    - 4.1.2 Device has a port for reprogramming(P10).<br>
-    - 4.1.3 Source code is accessible for reprogramming(P10).<br>
+
++ 4.1. The product shall allow the user to use multiple control methods and be able to program the device by editing the code we develop to run customized routines.<br>
+    + 4.1.1 Device supports three control interfaces: physical buttons with a screen to display information, mobile app, and web interface(P3).<br>
+    + 4.1.2 Device has a port for reprogramming(P10).<br>
+    + 4.1.3 Source code is accessible for reprogramming(P10).<br>
   
 - 4.2  The product shall allow the user to customize power output from each plug and USB port.<br>
     - 4.2.1 Power settings for each plug and USB-port can be specified with the control interface(P6).<br>
@@ -90,6 +94,7 @@ The **P1 - P10** is the "code" to indicate the priority of the specification, fr
     - 4.3.2 User can rearrange or swap out port types to design their own array of power sources(P8).<br>
 
 **Manufacturing**<br>
+
 * 5.1 The product shall be easy to manufacture.<br>
     * 5.1.1 Material besides internal PCB and Curiosity Nano controllers is sourced from at least two different materials in case of unavailability(P9).<br>
     * 5.1.2 There are at least two ways to manufacture the outer shell of the assembly, e.g. 3D printing or injection molding(P9).<br>
@@ -103,6 +108,7 @@ The **P1 - P10** is the "code" to indicate the priority of the specification, fr
     * 5.4.1 Outer shell assembly is made from biodegradable or recyclable plastic(P9).<br>
 
 **Safety**<br>
+
 * 6.1 Product shall protect against overcurrent.<br>
     * 6.1.1 Device includes automatic shutoff when current exceeds rated current(TBD); recovery requires manual reset(P1).<br>
 * 6.2 Product shall protect against short circuits.<br>
