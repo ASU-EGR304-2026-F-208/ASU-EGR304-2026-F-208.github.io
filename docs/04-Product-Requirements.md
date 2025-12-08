@@ -72,8 +72,8 @@ The **P1 - P10** is the "code" to indicate the priority of the specification, fr
     * 3.5.1 Device must have an indicator to show power on and off state of each outlet(P5).<br>
 
 **Customization**<br>
-- 4.1 The product shall allow the user to use multiple control methods and be able to program the device by editing the code we develop to run customized routines.<br>
-    - 4.1.1 Device supports three control interfaces: physical buttons with a screen to display information, mobile app, and web interface(P3).<br>
+4.1. The product shall allow the user to use multiple control methods and be able to program the device by editing the code we develop to run customized routines.<br>
+     - 4.1.1 Device supports three control interfaces: physical buttons with a screen to display information, mobile app, and web interface(P3).<br>
     - 4.1.2 Device has a port for reprogramming(P10).<br>
     - 4.1.3 Source code is accessible for reprogramming(P10).<br>
 - 4.2 The product shall allow the user to customize power output from each plug and USB port.<br>
