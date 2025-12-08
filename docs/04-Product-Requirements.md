@@ -63,23 +63,28 @@ The **P1 - P10** is the "code" to indicate the priority of the specification, fr
 **Interactivity & User Experience**<br>
 * 3.1. Product should educate the user about their power consumption.<br>
     * 3.1.1 Device should provide information to the user about their power consumption(P6).<br>
+
 * 3.2. Displayed data should be visually represented and easy to read.<br>
     * 3.2.1 Device must display data visually to the customer(P6).<br> 
+
 * 3.3. User should be able to individually control each outlet of the product.<br>
     * 3.3.1 Device outlets should be individually controller by the user(P4).<br>
+
 * 3.4. Product should be operable by any idividual from 18 years or older(P1).<br>
+
 * 3.5. Product should have easily communicate to the customer which outlets are on or off without an app.<br>
     * 3.5.1 Device must have an indicator to show power on and off state of each outlet(P5).<br>
 
 **Customization**<br>
-4.1. The product shall allow the user to use multiple control methods and be able to program the device by editing the code we develop to run customized routines.<br>
-     - 4.1.1 Device supports three control interfaces: physical buttons with a screen to display information, mobile app, and web interface(P3).<br>
+- 4.1. The product shall allow the user to use multiple control methods and be able to program the device by editing the code we develop to run customized routines.<br>
+    - 4.1.1 Device supports three control interfaces: physical buttons with a screen to display information, mobile app, and web interface(P3).<br>
     - 4.1.2 Device has a port for reprogramming(P10).<br>
     - 4.1.3 Source code is accessible for reprogramming(P10).<br>
-- 4.2 The product shall allow the user to customize power output from each plug and USB port.<br>
+  
+- 4.2  The product shall allow the user to customize power output from each plug and USB port.<br>
     - 4.2.1 Power settings for each plug and USB-port can be specified with the control interface(P6).<br>
     - 4.2.2 Device provides real time feedback for desired output and delivers within +-5% of what was specified(P4).<br>
-
+  
 - 4.3 The design is to be modular with the user customizing the location and type of each port.<br>
     - 4.3.1 Ports are mounted on interchangable modules with standardized connectors(P8).<br>
     - 4.3.2 User can rearrange or swap out port types to design their own array of power sources(P8).<br>
