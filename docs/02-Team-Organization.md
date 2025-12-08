@@ -9,3 +9,11 @@ tags:
 
 ## Product Mission Statement
  > "Our mission is to create a practical, sensor-driven smart appliance system that simplifies daily living, conserves resources, and demonstrates the power of collaborative engineering through modular PCB-based design."
+
+## Team composition & Contact Information
+
+| **Team Member**        |**GitHub Profile Contact** |
+| ---------------------- | ------------------------------------------------------|
+| Ayush Rathi            | [arathi14-coder](https://github.com/arathi14-coder)   |
+| Armando Botiller       | [botilarm](https://github.com/botilarm)               |
+| Manuel Castro          | [mcastr11-collab](https://github.com/mcastr11-collab) |
