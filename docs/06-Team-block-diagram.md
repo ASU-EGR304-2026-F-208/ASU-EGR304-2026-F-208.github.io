@@ -10,6 +10,7 @@ The team block diagram demonstrates how each PIC Curiosity Nano micocontroller w
 ## Final Iteration
 Below is our finalized team block diagram. The components listed reflect the parts we planned to use for our design, but due to ordering delays and sudden unexpected changes in manufacturing, some were not able to arrive on time and had to be changed for alternative parts.
 
+
 <object data="https://egr304-203.github.io/sparkguard/Team203BlockDiagramFinal.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://egr304-203.github.io/sparkguard/Team203BlockDiagramFinal.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://egr304-203.github.io/sparkguard/Team203BlockDiagramFinal.pdf">Download PDF</a>.</p>
@@ -24,9 +25,9 @@ Below is our finalized team block diagram. The components listed reflect the par
 5. Corrected format errors from previous diagram.<br>
 
 ### Team Connectors
-![Team Connectors](teamconnectors.jpg)
+![Team Connectors](TeamConnectorsFinal.png)
 
-Attached [here](Team Connectors.xlsx) is a link to the above excel sheet we developed with further details on the 8 pin connections between subsystems shown on our latest block diagram.
+Attached [here](TeamConnectorsFinal.xlsx) is a link to the above excel sheet we developed with further details on the 8 pin connections between subsystems shown on our latest block diagram.
 
 ## Decision making process
 We structured our block diagram to accurately show the inputs and outputs of our boards, which pins are being used, and what type of communication we are using between boards.
