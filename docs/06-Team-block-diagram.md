@@ -41,27 +41,27 @@ The block diagram meets the product requirements because it features the new emp
 
 **Communication Structure**<br>
 
-+ Subsystems
++ Subsystems<br>
 Our communication protocol was simplified in order to meed the project deadlines and meet our project goals. As we investigated the options for communications between our boards and our individual components. For board to board communication and post filtering component communication we opted to use GPIO pins with digital signals and pull up or pull down resitors where appropiate. This was done to keep communication simple, especially when our boards talked to one another. The job of the pull up or pull down resitors was to not have a floating signal when an "OFF" or "ON" was desired.<br>
 
-+ LEDS
++ LEDS<br>
 For debugging purposes we opted to use digital GPIO pins for our leds instead of PWM since we only needed to validate wheather a signal was "ON" or "OFF", or if a signal was in target or not. The dimming capabilities that we would have gotten via PWM was deemed unnecessary by our team. These LEDs inform the customer of basic information, such as power status, signal sent status, and signal received status. They are meant to inform the user that actions are taking place at a quick glance.<br>
 
-+ UART
++ UART<br>
 In order to fullfill the requirement of showing our current sensor data for educating the customer and adding more calculations in furure iterations. We used UART1 with TX and RX pins in order to communicate the data that was being read by our microcontrollers to the end user. The current iteration displays this information via serial communication on USB, and we hope to change this to a display as planned to have this infomation more readily available for the customer. <br>
 
 
 ## Final Design Software Changes <br>
 
-+ Armando Subsystem
++ Armando Subsystem<br>
 Due to time constraints, he had to cut down the stretch goal of having a current sensing with a seven segment display and programming it into his microcontroller. The original plan was to have this current sensor output on a seven segment display, but since time was running out and he needed to have some output of values to fullfill the client's requirements, he updated the code to only print out this value via a serial connection to show it was working.<br>
 
 In the same avenue, some of his calculations that would have provided the customer with power usage data had to be kept simple. The kilowatt hour calculation, the conversion to show current in amperes, and showing instantaneous powere in watts had to be postponed for version two of the product since  we had to keep to the project deliverable deadlines.<br>
 
-+ Ayush Subsystem
++ Ayush Subsystem<br>
 Originally the idea was to have an incoming digital signal from Manny's board activate a linear actuator that was connected to an H-bridge. In order to fullfil our given requirements, he modified his code and circuit to send this digital signal to his microcontroller, so it could then send a digital signal to the H-bridge and the linear actuator to move it. Ayush had to add a closed and open pair of push buttons in order to independently test the functinality of the linear actuator for going in the forwards direction and going in the backwards direction which also had to be added on his code.<br>
 
-+ Manny Subsystem
++ Manny Subsystem<br>
 On the first iteration, Manny was using a phototransistor in order to detect motion from a hand approaching it. Although, since our product will be used in a household, he changed it to a microphone with a push to talk button in order to restrict access to our power outlet and fullfill safety requirements. LEDs were also added to indicate what the status of the signal was in the loops.<br>
 
 The last two major changes on Manny's subsystem was that the Goertzel logic was removed for a more simple threshold check for the cutt off frequency. Since I did not have time to continue experimenting with this amplitude analysis tool, going with a more simple option was more desirable to fullfill the deadline or the project while fullfilling our requirements.  This was a helpful detour as it helped Manny find out that the audio gate he had picked for controlling the push to talk function was not neccessary. Therefore the push to talk function was changed to work witht the same threshold instead of an additional hardware component. The hardware audio gate then was left on the design as an optional part.<br>
