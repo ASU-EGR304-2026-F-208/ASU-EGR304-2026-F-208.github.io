@@ -1,4 +1,11 @@
-## First Draft
+---
+title: "Old Content Archive"
+tags:
+- tag1
+- tag2
+---
+
+## First Draft <br>
 ![Team Block Diagram](Team203BlockDiagram.jpeg)
 The diagram shown above was our first attempt at a simplifcation of our idea into a demo where each microcontroller has at least one analog sensor or actuator with the required filters, amplifiers, or drivers.
 
@@ -23,17 +30,12 @@ This was our second to last revision to our block diagram.
 We felt that an updated diagram was warranted since our team felt that the logic did not have an end as it is always running in a continuous repeating loop that is checking to see if the required conditions are met to take action.
 
 
----
-title: Product Requirements (Old)
-tags:
-- tag1
-- tag2
----
+**Product Requirements (Old)** <br>
 
-## Project Objective
+## Project Objective <br>
 >This project aims to investigate and develop a highly versatile smart power strip with an improved setup, more reliable interface, easy to program outlets and USB ports, for use in a wide range of electrical applications indoors as well as out. The outcome of this investigation and the prototype that will be created will benefit the industry as a whole, as we are posting all documentation, electrical schematics, code, and CAD files to our github page which is freely viewable and downloadable. We believe that by providing this research as a public resource it will benefit fellow ASU students taking EGR304 or similar embedded systems classes by providing an example of a project that can serve as inspiration. And, since we are developing a real product it will benefit entrepreneurs or engineering firms looking to actually sell a product like the one we design.
 
-## Aspects
+## Aspects <br>
 4. Customization
 * 4.1 The product shall allow the user to use multiple control methods and be able to program the device by editing the code we develop to run customized routines.
 * 4.2 The product shall allow the user to customize power output from each plug and USB port.
@@ -52,7 +54,7 @@ tags:
 * 6.4 Product automatically limits current to what each port can deliver. 
 * 6.5 Product dissipates heat so it does not become a fire hazard with high current usage.
 
-## Requirement Criteria Specifications
+## Requirement Criteria Specifications <br>
 * 4.1.1 Device supports three control interfaces: physical buttons with a screen to display information, mobile app, and web interface.
 * 4.1.2 Device has a port for reprogramming.
 * 4.1.3 Source code is accessible for reprogramming.
@@ -76,7 +78,7 @@ tags:
 * 6.5.2 Product does not exceed 122 degrees F during intended use.
 * 6.5.3 On board temperature sensor automatically shuts off device if temperature exceeds 122 F.
 
-## Open Questions
+## Open Questions <br>
 
 * Can we manufacture this product for under $100?
 * Can we find a safe way to merge high amperage needs with low?
