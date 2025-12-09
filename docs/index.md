@@ -15,6 +15,11 @@ Kevin Nichols<br>
   
 
 </center>
+<br>
+
+<p align="center">
+    <img src="team203projectpicture.png">
+p>
 
 ## Team Introduction
 
