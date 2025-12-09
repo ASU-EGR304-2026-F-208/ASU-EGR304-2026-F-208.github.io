@@ -1,15 +1,17 @@
-This is a template to help you get started with the team's GitHub Report. Use this template to help guide your team through the initial setup process.
+## Team Introduction
 
-You will need to add additional files per team assignment.
-# Remove ALL unused ITEMS currently in the Appendix before submitting the report for the External review!
-The three items currently there are placeholders and could serve as possible resources.
+Our team got together with the simple goal of revitalizing the charging experience for everyone. Armando Botiller, Ayush Tathi, and Manuel Castro bring their expertise in Robotics Engineering together to innovate home solutions with sensor based technology and improve day to day life.
 
-## Tips if the template does not initially publish/update correctly:
-If, after checking these [settings](https://embedded-systems-design.github.io/fork-report-website/#settings-to-check/), you often find that renaming the workflow file initiates builds (for whatever reason).
+We are making a smart outlet that can monitor power indoor and outdoor that does away with the network connectivity and latency woes that plague current market offerings.
 
-Either on your computer or on the GitHub website,
-1. Navigate to the files of your repository in the .github/workflows/.
-1. Rename **pages.yml** to something else (**main.yml** worked for me).
-1 Stage, commit, and push your files.
-1. Check the "actions" tab (found in your repository's main GitHub page) to see that your commit is triggering the **"mkdocs-build"** action.
-A video detailing the steps to check your build process can be viewed [here.](https://www.youtube.com/watch?v=8EgFkG2HHxM/) 
+>Below are sections with links to our team member's individual datasheets for our subsystems. You will also find links that take you through our design journey in the below "Design Ideation" and "Team Block Diagram" sections<br>
+
+## Team Members Datasheet links
+
+| **Team Member**        |**Ind Datasheet Links** |
+| ---------------------- | ------------------------------------------------|
+| Ayush Rathi            | [arathi14-coder](https://arathi14-coder.github.io/arathi14-coder.github.oi/) |
+| Manuel Castro          | [mcastr11-collab](https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/) |
+| Armando Botiller       | [botilarm](https://botilarm.github.io/) |
+
+Spark Guard Team Website ![Spark Guard](https://egr304-203.github.io/sparkguard/)
