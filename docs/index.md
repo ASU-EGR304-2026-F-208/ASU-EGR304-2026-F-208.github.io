@@ -7,7 +7,7 @@ tags:
 <center>
 <font size="8">Embedded Systems Design: Spark Guard<br>
 <font size="5">Team 203<br>
-**Submission: 10/26/2025**<br>
+**Submission: 12/06/2025**<br>
 Fall 2025<br>
 <font size="4">Arizona State University<br>
 **EGR 304**<br>

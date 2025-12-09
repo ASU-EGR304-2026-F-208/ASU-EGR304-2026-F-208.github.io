@@ -77,3 +77,10 @@ We updated our original vision to simplify the operation of the door with a sole
 
 **Justification:**<br>
 While a microphone operated locking mechanism was not a main emphasis of the original user requirements, it fulfills [requirement 1.2](04-Product-Requirements.md#aspects) for weather protection, as well as an added implicit need for safety and security.
+
+## Reflection
+Because of rescoping our design to fulfill class requirements and limited budget/time, we reduced our initial plan of making a power strip to a single USB port with a microphone activated locking mechanism.
+
+At the end of our project when we physically built the circuits to verify functionality, we realized that the pull solenoid we purchased was not bidirectional, meaning it could not be actuated in both directions. This meant we couldn't verify that a solenoid will move forward and backward, but a motor can when connected to the same circuit.
+
+We also realized that solenoids that are truly bidirectional, without a permanent magnet or spring to do the opposite motion of the coil, are used in industrial applications such as [this one featured on Kendrion, a Dutch industrial actuator/controls company](https://www.kendrion.com/en/products-services/solenoids-actuators/linear-solenoids/reversible-linear-solenoids).
