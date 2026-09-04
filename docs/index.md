@@ -5,7 +5,7 @@ tags:
 - tag2
 ---
 <center>
-<font size="8">Self Balancing Table<br>
+<font size="8">Self Balancing Work Bench<br>
 <font size="5">Team 208<br>
 Submission: 09, 04, 2026<br>
 Fall 2026<br>
@@ -27,6 +27,5 @@ Professor Nichols<br>
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
 | Joseph Nunez           | [jnunez1179@github](https://jnunez1179.github.io/jnunez1179_EGR304_F26.github.io) |
-| Name #2                | link |
-| Name #3                | link |
-| Name #4                | link |
+| Emma Cumiford                | [claughl6](https://claughl6.github.io/claughl6_EGR304_F26.github.io/) |
+| Caden Laughlin                | link |
