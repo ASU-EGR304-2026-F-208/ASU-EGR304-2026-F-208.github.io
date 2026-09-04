@@ -26,7 +26,7 @@ Professor Name<br>
 
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
-| Name #1                | [JohnDoe.GitHub](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/) |
+| Canyon Miller                | https://github.com/Canyonmill60 |
 | Name #2                | link |
 | Name #3                | link |
 | Name #4                | link |
