@@ -27,5 +27,5 @@ Professor Nichols<br>
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
 | Joseph Nunez           | [jnunez1179@github](https://jnunez1179.github.io/jnunez1179_EGR304_F26.github.io) |
-| Emma Cumiford                | [claughl6](https://claughl6.github.io/claughl6_EGR304_F26.github.io/) |
-| Caden Laughlin                | link |
+| Emma Cumiford                | [emmaecumiford](https://emmaecumiford.github.io/emmaecumiford_EGR304_fall26.github.io/) |
+| Caden Laughlin                | [claughl6](https://claughl6.github.io/claughl6_EGR304_F26.github.io/) | 
