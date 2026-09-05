@@ -5,14 +5,14 @@ tags:
 - tag2
 ---
 <center>
-<font size="8">Project Name<br>
-<font size="5">Team ###<br>
-**Submission: month, DD, YYYY**<br>
-Semester and Year<br>
+<font size="8">Self Balancing Work Bench<br>
+<font size="5">Team 208<br>
+Submission: 09, 04, 2026<br>
+Fall 2026<br>
 <font size="4">Arizona State University<br>
-**EGR 304**<br>
-Professor Name<br>
-  
+EGR 304<br>
+Professor Nichols<br>
+
 
 </center>
 
@@ -26,7 +26,6 @@ Professor Name<br>
 
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
-| Name #1                | [JohnDoe.GitHub](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/) |
-| Name #2                | link |
-| Name #3                | link |
-| Name #4                | link |
+| Joseph Nunez           | [jnunez1179@github](https://jnunez1179.github.io/jnunez1179_EGR304_F26.github.io) |
+| Emma Cumiford                | [claughl6](https://claughl6.github.io/claughl6_EGR304_F26.github.io/) |
+| Caden Laughlin                | link |

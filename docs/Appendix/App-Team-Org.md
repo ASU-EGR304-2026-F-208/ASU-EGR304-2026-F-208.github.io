@@ -7,7 +7,11 @@ tags:
 
 ## Team Goals
 
-List at least five shared goals that reflect a successful product with regard to EGR3X4. Focus on team / product goals that are deeper than "getting an A".
+1. Understand the Embedded Design Process
+2. Build better Embedded Software Systems
+3. Achieve 1ms Reaction Times
+4. Become Familair with Highly Dynamic Systems
+5. Build a Challenging Sensor Based Product
 
 ## Communication Channels
 
@@ -15,19 +19,18 @@ _**Appendix Table 1**: Team Member Communication Modes_
 
 |Name                 | First Choice Communication | Second Choice Communication | Third Choice Communication |
 |---------------------|----------------------------|-----------------------------|----------------------------|
-|Member 1 |  ? | ? | ? |
-|Member 2 |  ? | ? | ? |
-|Member 3 |  ? | ? | ? |
-|Member 4 |  ? | ? | ? |
+| Caden Laughlin |  Text Message | Discord | E-mail |
+| Emma Cumiford |  Text Message | Discord | E-mail |
+| Joseph Nunez |  Text Message | Discord | E-mail |
 
 ### Main Method for Group Communication
 
-Based on the information provided on in the "Team Member Communication Modes," the group primary method of communication is ......
- 
+Based on the information provided on in the "Team Member Communication Modes," the group primary method of communication is Text Message
+
 ## Communication Procedures
 
-1. How will your team communicate?
-2. How will you handle instructor correspondence? Who is responsible? How will that be communicated with/back to the group?
+1. We will communicate course objectives during class, and any other contact will be handled through text message or phone call.
+2. Joseph Nunez will be the direct point of contact with the instructor and will relay messages in class, through text, or through phone call.
 
 ## Meeting Schedule
 
@@ -35,55 +38,58 @@ _**Appendix Table 2**: Weekly Schedule_
 
 | Time | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
 | :------: | :----: | :----: | :----: | :----: | :----: | :----: | :-----: |
-| 8:00 AM | - | - | M | - | M | - | - |
-| 9:00 AM | - | F | M | - | M | - | - |
-| 10:00 AM | - | B | M | - | M | - | - |
-| 11:00 AM | - | B | M | - | M | - | - |
-| 12:00 PM | Z | B, Z | M | - | M | - | - |
-| 1:00 PM | Z, F |  | M | - | M | - | - |
-| 2:00 PM | Z, F | - | M | - | M | - | - |
-| 3:00 PM | Z | - | M | - | M | - | - |
-| 4:00 PM | - | - | M | - | M | - | - |
-| 5:00 PM | - | - | M | - | M | - | - |
-| 6:00 PM | - | - | M | - | M | - | - |
-| 7:00 PM | - | - | M | - | M | - | - |
-| 8:00 PM | - | - | M | - | M | - | - |
-| 9:00 PM | - | - | M | - | M | - | - |
+| 8:00 AM  | - | J | - | J | - | - | - |
+| 9:00 AM  | - | J | - | J | - | - | - |
+| 10:00 AM | - | J | - | J | - | - | J |
+| 11:00 AM | - | J | - | J | - | - | J |
+| 12:00 PM | - | J | - | J | - | - | C, J |
+| 1:00 PM  | - | - | - | - | - | - | C, J  |
+| 2:00 PM  | - | - | - | - | - | - | C, J |
+| 3:00 PM  | - | - | - | - | - | - | C, J |
+| 4:00 PM  | - | J | C, E | J | C, E | E | C, J |
+| 5:00 PM  | - | J | C, J, E | J | C, J, E | E | C, J |
+| 6:00 PM  | J | J | C, J, E | J | C, J, E | E | - |
+| 7:00 PM  | J | - | C, J | - | C, J | E | - |
+| 8:00 PM  | J | - | C, J | - | C, J | - | - |
+| 9:00 PM  | - | - | - | - | - | - | - |
 
 _**Table Legend for Appendix Table 2**_
 
 | Name | Abbreviation |
 | ----- | :------: |
-| Bill | B |
-| Mary | M |
-| Zane | Z |
-| Felicity | F |
+| Caden | C |
+| Emma | E |
+| Joseph | J |
 
 
 ## Meeting Coordination
 
-1. What method will you use to remind yourselves of meetings (a shared calendar?)
-1. How will your team go about changing or adding meeting times?
-1. What's the preferred format for meetings (face-to-face or virtually)?
-1. Are there any other procedures that your team feels are necessary?
+1. Our team will have a coordinated Google Calendar set up with meeting notifications set in advance.
+2. Changes to meeting schedule will be made in Google Calendar.
+3. Meetings will be held in person and virtually depending on availability.
 
 ## Roles & Responsibilities
 
 _**Appendix Table 2**: Project Roles and Duties_
 
-| **Role**          | **Duties**                                                                                                                                |
-| :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
-| Meeting leader    | Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting                                        |
-| Meeting recorder  | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |
-| Assignment leader | Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
-| Project monitor   | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
+| **Role**          | **Duties**                                                                                                                                |Member|
+| :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |:-------:|
+| Meeting leader    | Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting                                        |Joseph Nunez|
+| Meeting recorder  | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |Caden Laughlin|
+| Assignment leader | Coordinates the team's work on a given assignment to Canvas before the due date                                                           |Joseph Nunez|
+| Project monitor   | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |Emma Cumiford|
 
 ## Conflict Recognition & Resolution
 
-Need to add content!!
+- *Identify any disagreements immediately*.
 
+- *Voice opinions accordingly, being honest and open*.
+
+- *As team members, always have an open mind about the other's situation and perspective*
+
+- *Members will vote on conflicting terms unanimously*
 
 ## Signatures
 
-Need to add content!!
+***Joseph Nunez, Emma Cumiford, Caden Laughlin : Team 208***
 
