@@ -10,7 +10,7 @@ tags:
 1. Understand the Embedded Design Process
 2. Build better Embedded Software Systems
 3. Achieve 1ms Reaction Times
-4. Become Familair with Highly Dynamic Systems
+4. Become Familiar with Highly Dynamic Systems
 5. Build a Challenging Sensor Based Product
 
 ## Communication Channels
@@ -85,9 +85,9 @@ _**Appendix Table 2**: Project Roles and Duties_
 
 - *Voice opinions accordingly, being honest and open*.
 
-- *As team members, always have an open mind about the other's situation and perspective*
+- *As team members, always have an open mind about the other's situation and perspective*.
 
-- *Members will vote on conflicting terms unanimously*
+- *Members will vote on conflicting terms unanimously*.
 
 ## Signatures
 
