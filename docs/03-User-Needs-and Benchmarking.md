@@ -166,7 +166,44 @@ title: User Needs and Benchmarking
 
 ---
 
-#### 5. Next Product goes here
+### Search #5
+
+**Keywords:** "DJI RS 3 Pro Combo camera gimbal stabilizer"
+
+**Search Results Link:** [Search Link](https://www.google.com/search?q=camera+gimbal+stabilizer&sca_esv=6a0a97182983e41a&sxsrf=APpeQntbsip23F1H4WjLqmHegmHo3podLA%3A1789544362749&ei=qkeqaumpLa_NkPIP99Xe-Q4&biw=1536&bih=730&uact=5&oq=camera+gimbal+stabilizer&gs_lp=Egxnd3Mtd2l6LXNlcnAiGGNhbWVyYSBnaW1iYWwgc3RhYmlsaXplcjILEAAYgAQYigUYkQIyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB5ItAhQAFiuBnAAeAGQAQCYAWSgAbUBqgEDMS4xuAEDyAEA-AEBmAICoALLAZgDAJIHAzEuMaAH4QuyBwMxLjG4B8sBwgcFMi0xLjHIBxCACAE&sclient=gws-wiz-serp)
+
+### Selected Products
+
+#### 1. [DJI RS 3 Pro Combo Handheld 3-Axis Gimbal Stabilizer](https://www.bhphotovideo.com/c/product/803537642-USE/dji_cp_rn_00000218_03_rs_3_pro_gimbal.html/reviews)
+
+![DJI RS 3 Pro Combo](image/DJI_RS3_Pro_Combo.png)
+
+* Price: $1,099.00
+
+* Vendor: B&H Photo Video
+
+* Description: The DJI RS 3 Pro Combo features extended carbon fiber axis arms, automated axis locks, a 4.5kg (10 lb) tested payload capacity, support for LiDAR focusing systems, and the O3 Pro video transmission system. This combo kit includes the gimbal along with the Focus Motor (2022) and Ronin Image Transmitter (RavenEye) for full professional cinema workflows.
+
+##### Positive Comments
+
+| Voice of the Customer | Restated Customer Need |
+| --- | --- |
+| "Love the RS 3, really like that the combo comes with everything I need (focus motor, and raveneye transmitter). So much easier to balance than the older models" | 1. The product includes all required accessories in the package (explicit)<br>2. The product is easier to balance compared to prior generations (explicit)<br>3. The accessory setup simplifies operation (latent) |
+| "This thing is a beast. I was worried that I would have trouble calibrating and setting it up, but there are some great YouTube videos from the company that walk you through it. This is such a great tool for my work projects! I love it!" | 1. Official instructional video resources are available to assist with setup (explicit)<br>2. The product provides strong stabilization performance for professional projects (explicit)<br>3. The initial calibration process is straightforward to learn (latent) |
+| "The RS3 Pro is made for larger equipment. I struggled to get my RF28-70 f2 balanced on the RS2, but the RS3 handles it without any issue. It was easy to set up and pair to my phone. The on screen configuration is intuitive, along with the switch to change what mode you wish to shoot in. The built in battery seems to last for a decent amount of time. Overall, the system is well built and has many customizable options to maximize flexibility and to ensure smooth movements. Balancing was easy as well." | 1. The product accommodates heavy camera bodies and lens combinations (explicit)<br>2. The smartphone pairing and on-screen interface are simple to navigate (explicit)<br>3. The battery life supports extended shooting sessions (explicit) |
+
+##### Negative Comments
+
+| Voice of the Customer | Restated Customer Need |
+| --- | --- |
+| "I've had this gimbal for a couple years and it's not really used that much. Over the last six months, I've had increasingly frequent issues where the motors fail to engage when turning the gimbal on. they will then be unresponsive until the gimbals been turned off with the battery removed for several hours. This thing is useless if I can't rely on it to start up on location. It's a shame that a product as expensive as this can't be expected to last more than a couple years before needing to be replaced." | 1. The product startup and motors operate reliably on location (explicit)<br>2. The internal motor components remain functional over several years of ownership (explicit)<br>3. The unit recovers quickly without requiring battery removal for extended periods (latent) |
+| "A7slll to Raven Eye is a challenge with the Sony menu but the FX3 worked pretty quickly. The RS3 Pro is good for up to 9lbs and has a few too many menu options. Good to have but not always the options I need as a pro under pressure. BnH staff where super helpful getting me close enough to be ready and quickly." | 1. Menu options are streamlined for fast navigation under pressure (explicit)<br>2. Camera connection setup is straightforward across different camera models (explicit)<br>3. System integration minimizes menu setup friction (latent) |
+
+
+
+
+
+
 
 
 ## Organized Need Statements
