@@ -96,24 +96,41 @@ title: User Needs and Benchmarking
 |                                                                                                                                                                                                                                                                                                            | 3. Stabilization process does not interfere with table arrangement (latent)|
 
 
-
 ---
 
+### Search #3
 
+**Keywords:** "FLAT AUTO-Adjust PX23 Self-Stabilizing Parisian Cast Iron Table Base"
 
+**Search Results Link:** [Search Link](https://www.google.com/search?q=Cast+Iron+Table+Base&sca_esv=6a0a97182983e41a&sxsrf=APpeQnvjgz9_mnUTcVz06ZNHLn_YuvDJ8A%3A1789545937663&ei=0U2qasKEKLPKkPIPrfeaoAc&biw=1536&bih=730&uact=5&oq=Cast+Iron+Table+Base&gs_lp=Egxnd3Mtd2l6LXNlcnAiFENhc3QgSXJvbiBUYWJsZSBCYXNlMgoQABiABBiKBRhDMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeSP4LUABYrANwAHgAkAEAmAFfoAGZAaoBATK4AQPIAQD4AQGYAgKgAq8BmAMAkgcDMS4xoAfFC7IHAzEuMbgHrwHCBwUyLTEuMcgHEIAIAQ&sclient=gws-wiz-serp)
 
+### Selected Products
 
+#### 1. [FLAT AUTO-Adjust PX23 Self-Stabilizing Parisian Cast Iron Table Base](https://www.amazon.com/FLAT-Self-Stabilizing-PX23-23-Antique/dp/B00YACF9DC)
 
+![FLAT AUTO-Adjust PX23 Table Base](image/FLAT_PX23_Table_Base.jpg)
 
+* Price: $168.00
 
+* Vendor: Amazon
 
+* Description: The FLAT AUTO-Adjust PX23 table base features heavy-duty cast iron construction with a classic X-shaped Parisian aesthetic. Equipped with patented hydraulic PAD technology, the base automatically self-adjusts to uneven flooring to eliminate table wobble and enable seamless tabletop alignment. It supports square tops up to 30 inches and round tops up to 32 inches at standard dining height.
 
+##### Positive Comments
 
+| Voice of the Customer | Restated Customer Need |
+| --- | --- |
+| "We have had the product for a year and love the aesthetic..." | 1. The product provides a classic, attractive Parisian design (explicit)<br>2. The aesthetic quality holds up well over long-term use (latent) |
+| "The base is really solid. The adjustable feature is awesome it saves my hardwood floor from getting marred as well as adjust..." | 1. The base material provides heavy, solid stability (explicit)<br>2. Self-adjusting feet prevent scratching or marring hardwood floors (explicit)<br>3. Automatic stabilization easily corrects uneven surfaces (latent) |
 
+##### Negative Comments
 
+| Voice of the Customer | Restated Customer Need |
+| --- | --- |
+| "The self-leveling device is leaking oil. The table comes with an extra so make sure you hang onto it. Also, pay attention in case it would ruin a floor or rugs. We have had the product for a year and love the aesthetic but we will probably have to purchase something else if the stabilizers fail again." | 1. Hydraulic self-leveling feet remain completely sealed without leaking fluid (explicit)<br>2. Stabilizer components operate reliably over time without requiring replacement (explicit)<br>3. The unit poses no risk of staining or damaging delicate floors and rugs (latent) |
+| "These table bases are beautiful and extremely heavy. I put 36x36 table tops on and it was way to big- tried 30x30 and it still tipped if you put pressure on the corner. finally had to settle for 24" round tops..." | 1. Table base maintains balance and stability when paired with recommended top sizes (explicit)<br>2. Weight distribution prevents tipping when downward pressure is applied to tabletop corners (latent) |
 
-
-
+---
 
 ### Search #4
 
@@ -157,10 +174,6 @@ title: User Needs and Benchmarking
 |"I’ve been trying for 3 weeks to return 2 scooters that were ordered by mistake. The same day I placed the order because I had thought I had ordered 3 and only one came in the day before, the other 2 were delivered. I tried to call and cancel the new order and they were closed so I emailed requesting cancellation. Called at 6 am on Monday and was told email was received for cancellation. Then Monday afternoon I get notification the order has shipped for the 2 I had cancelled. You can never get a person from America to converse with it’s all by email and with foreigners that don’t understand. It is very frustrating I will NEVER order from Segway again. My grandkids love their scooters but I would suggest buying from Amazon they are much easier to deal with."| 1. The product is very unreliable after cyclical action (explicit)|
 |                                                                                                                                                                                                                                                                                                            | 2. The product needs a more reliable ealier on(latent)|
 |                                                                                                                                                                                                                                                                                                            | 3. The product should not break with such little use (latent)|
-
-
-
----
 
 
 
