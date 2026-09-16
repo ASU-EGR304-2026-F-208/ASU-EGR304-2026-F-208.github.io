@@ -115,9 +115,56 @@ title: User Needs and Benchmarking
 
 
 
-#### 3. Next Product goes here
+### Search #4
 
-#### 4. Next Product goes here
+**Keywords:**"self balancing base"
+
+**Search Results Link:** [Search Link] https://www.google.com/search?q=self+balancing+base+&sca_esv=672a25f6bc86d272&biw=1047&bih=532&sxsrf=APpeQnu0y1OH_jjLHHx3b2XwVv2o79d2cw%3A1789539648241&ei=QDWqapyoDpzNkPIP69C6sQ8&uact=5&oq=self+balancing+base+&gs_lp=Egxnd3Mtd2l6LXNlcnAiFHNlbGYgYmFsYW5jaW5nIGJhc2UgMgQQIxgnMgYQABgWGB4yBhAAGBYYHjILEAAYgAQYigUYhgMyCBAAGIAEGKIEMgUQABjvBTIFEAAY7wUyBRAAGO8FSNcLUIgDWIgDcAF4AZABAJgBXaABXaoBATG4AQPIAQD4AQGYAgKgAmPCAgoQABhHGNYEGLADmAMAiAYBkAYIkgcBMqAH0QWyBwExuAdgwgcDMC4yyAcEgAgB&sclient=gws-wiz-serp 
+
+### Selected Products
+
+#### 2. [Segway Ninebot S2 Electric Self-Balancing Scooter] (https://store.segway.com/ninebot-s2?utm_source=google&utm_medium=pmax&utm_campaignid=17209955658&gad_source=4&gad_campaignid=17209975344&gbraid=0AAAAABqJF-1azKaMePy4NnRchV_iiGukW&gclid=CjwKCAjw2aPVBhBkEiwA0Cpttzp5xPkTFKvNrSdHg1Uy881yemSkkta5xv2sHPHzIrEaxVeqwS0LnxoCnhYQAvD_BwE)
+![Table](image/segway.avif)
+
+* Price: $649.99
+
+* Vendor: TuvRheinland
+
+* Description: The Ninebot S2 is a premium self-balancing scooter designed for smooth, stable, and stylish rides. Perfect for both teens and adults, it features an adjustable knee control bar for a customized fit, ensuring maximum comfort and control. Personalize your experience with RGB wheel lights and taillights, plus enjoy music on the go with the built-in Bluetooth speaker. The Ninebot S2 is the ultimate blend of style, comfort, and technology.
+
+#### Positive Comments
+| **Voice of the Customer**                                                                                                                                                                  | **Restated Customer Need**                                                                |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|"Having medical issues with my legs, the Ninebot allows me to be much more active around the yard. The Ninebot is well worth the money for the technology and name that supports the device. I am currently 66 and do not have a problem enjoying this device. Thank You. . . ."| 1. The product is helpful for people with diasbilities (explicit)|
+|                                                                                                                                                                                                                                           | 2. The product provided a lot of stability(explicit)|
+|                                                                                                                                                                                                                                           | 3. The product is user friendly (latent)|
+|"The NineBot S2 is perfect for our use. We use 2 earlier models here on the ranch and just bought 2 more for grandsons to use at college. Parking is a pain and these solve that problem. QUESTION: How and what type of lock do you recommend on campus with a bike rack? Can a U lock go through the frame anywhere on the S2?"| 1. The product was built was highly reliblity (explicit)|
+|                                                                                                                                                                                                                                           | 2. The product can handle very bumpy roads (latent)|
+|                                                                                                                                                                                                                                           | 3. The product can be used by many ages (latent)|
+|"I try to half price competitor with a hover board and it was cheap, and flimsy, and I ended up returning it. Then I discovered Segway and this is leaps and bounds better than any other knock off at a very favorable price point. I’m extremely happy with my purchase and I’m glad I decided to go with Segway rather than an off brand. Segway makes quality products and you will know the difference and it’s well worth the extra money"                                                                                     | 1. The product is worth more money if it shows reliabiltyexplicit)|
+|                                                                                                                                                                                                                                           | 2. The product was stabile (latent)|
+|                                                                                                                                                                                                                                           | 3. The products was easy to use (latent)|
+
+#### Negative Comments
+| **Voice of the Customer**                                                                                                                                                                  | **Restated Customer Need**                                                                |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|"This is a piece of junk. I can’t even charge. I can’t even turn them off. It was a piece of junk. You guys sell me"| 1. The product needs to have a good battery life (explicit)|
+|                                                                                                                                                                                                                                                                                                            | 2. The products needs to be easy to trouble shoot(explicit)|
+|                                                                                                                                                                                                                                                                                                            | 3. The product was not very good(explicit)|
+|"Something internally in the mechanism that controls turning broke within a few hours of riding"| 1. The product should last longer than a few hours (explicit)|
+|                                                                                                                                                                                                                                                                                                            | 2. The product should be easy to troubleshoot (explicit)|
+|                                                                                                                                                                                                                                                                                                            | 3. There should be a testing period before shipping (latent)|
+|"I’ve been trying for 3 weeks to return 2 scooters that were ordered by mistake. The same day I placed the order because I had thought I had ordered 3 and only one came in the day before, the other 2 were delivered. I tried to call and cancel the new order and they were closed so I emailed requesting cancellation. Called at 6 am on Monday and was told email was received for cancellation. Then Monday afternoon I get notification the order has shipped for the 2 I had cancelled. You can never get a person from America to converse with it’s all by email and with foreigners that don’t understand. It is very frustrating I will NEVER order from Segway again. My grandkids love their scooters but I would suggest buying from Amazon they are much easier to deal with."| 1. The product is very unreliable after cyclical action (explicit)|
+|                                                                                                                                                                                                                                                                                                            | 2. The product needs a more reliable ealier on(latent)|
+|                                                                                                                                                                                                                                                                                                            | 3. The product should not break with such little use (latent)|
+
+
+
+---
+
+
+
+---
 
 #### 5. Next Product goes here
 
