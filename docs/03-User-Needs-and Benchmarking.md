@@ -96,7 +96,7 @@ title: User Needs and Benchmarking
 |                                                                                                                                                                                                                                                                                                            | 3. Stabilization process does not interfere with table arrangement (latent)|
 
 
----
+--- 
 
 ### Search #3
 
