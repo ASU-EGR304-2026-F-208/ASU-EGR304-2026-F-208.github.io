@@ -118,7 +118,39 @@ For each user need and product requirement, brainstorm 5 different product featu
 
 ## Step Three
 
-Add your context and tables
+Thematic Grouping, Ranking, and Feature Rationale
+
+| Theme / Category | Top Ranked Feature | Value (1-5) | Feasibility (1-5) | Score | Rationale for Top Selection |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| Theme 1: Core Mechanical Stability | Dry Mechanical Lead-Screws | 5 | 5 | 25 | Eliminates fluid leak risks on delicate floors entirely while providing highest static load support |
+| Theme 1: Core Mechanical Stability | Independent Leveling Legs | 5 | 5 | 25 | Directly compensates for uneven ground variations without creating structural torsion across frame |
+| Theme 1: Core Mechanical Stability | Shock Absorbers & Dampers | 5 | 5 | 25 | Passively dissipates sharp impact energy before it triggers unnecessary active motor corrections |
+| Theme 2: Sensing & Control Systems | Accelerometer + Pressure Sensor Fusion | 5 | 4 | 20 | Prevents system hunting by distinguishing between side load placement and dynamic ground vibration |
+| Theme 2: Sensing & Control Systems | Predictive Stabilization | 5 | 4 | 20 | Actuates leg motors upon detecting tilt acceleration before actual physical tipping occurs |
+| Theme 2: Sensing & Control Systems | Closed-Loop PID Controller | 5 | 4 | 20 | Continuously calculates positional error to drive actuators smoothly to precise zero-plane horizon |
+| Theme 3: User Interface & Safety | Optical Pinch Protection | 5 | 5 | 25 | Critical safety mechanism that instantly halts leg actuation if fingers or objects enter joints |
+| Theme 3: User Interface & Safety | 3-Stage Hardware Slider Switch | 5 | 4 | 20 | Offers immediate, zero-latency physical state switching (Auto / Lock / Off) without menu navigation |
+| Theme 3: User Interface & Safety | Single-Button Primary Activation | 4 | 5 | 20 | Ensures low technical barrier to entry for everyday users to zero and initialize table base |
+| Theme 4: Surface Protection & Aesthetics | Non-Marking Polyurethane Caps | 5 | 5 | 25 | Provides maximum friction coefficient on polished surfaces without leaving visible scuff marks |
+| Theme 4: Surface Protection & Aesthetics | Hidden Fasteners | 4 | 5 | 20 | Delivers clean aesthetic visual profile while shielding connection hardware from dust and liquid spills |
+| Theme 4: Surface Protection & Aesthetics | Scratch & Chemical Coating | 4 | 4 | 16 | Ensures long-term visual durability under harsh cleaning protocols and repeated outdoor use |
+| Theme 5: Transport, Storage & Modularity | Motorized Automated Axis Locks | 4 | 4 | 16 | Freezes moving linkages automatically on power-off to isolate motor gears from transit impact loads |
+| Theme 5: Transport, Storage & Modularity | Quick-Release Mounting Plate | 5 | 4 | 20 | Enables rapid toolless separation of tabletop surface from support column for transport |
+| Theme 5: Transport, Storage & Modularity | Travel-Lock Toggle Lever | 4 | 5 | 20 | Mechanically locks folded leg assemblies flush against central column with single motion |
+
+Product Concepts
+| Subsystem / Feature Category | Concept 1: Tripod Retractable Base | Concept 2: Heavy-Duty Hydraulic Table | Concept 3: Portable Emergency Response Table |
+| :--- | :--- | :--- | :--- |
+| Primary Design Philosophy | Minimalist 3-point geometry offering fast self-leveling on uneven surfaces with fully retractable legs for space-saving storage | Maximum payload capacity and industrial durability using high-force hydraulic actuators for dynamic commercial environments | Rapid field deployment, extreme weather/terrain resilience, and easy sanitization for crisis medical and tactical operations |
+| Frame & Base Geometry | 3-leg tripod arrangement with square-post telescoping shafts and ball pivot joints on all leg ends | Thick-walled reinforced steel frame with wide gusseted base plate and structural support beams | High-strength folding aluminum/carbon-fiber chassis with quick-deploy scissor linkages |
+| Drive & Leveling Actuation | Micro-planetary gearmotors driving dry mechanical lead-screws inside retractable leg housings | Sealed fluid-driven hydraulic piston actuators powered by a compact high-pressure electric pump | High-speed electric linear actuators with independent spring-loaded telescoping leg extensions |
+| Sensing & Control Systems | High-sensitivity orientation sensors calculating 3-point geometric plane zeroing | Pressure sensor + accelerometer fusion driving closed-loop hydraulic PID metering valves | Predictive stabilization software with terrain-learning auto-zeroing algorithms |
+| User Interface & Controls | Single-button primary zeroing switch with manual twist-lock override dials | 3-stage hardware slider switch with integrated maintenance alert diagnostic LEDs | Sealed high-contrast touchscreen shortcut menu with tactile physical override trigger button |
+| Safety & Surface Protection | Ball-joint feet with non-marking polyurethane caps and optical leg pinch protection sensors | Double O-ring shaft seals, bellows dust boots, and heavy recessed rubber shock-absorbing pads | High-friction rubber feet with chemical-resistant antimicrobial protective coating |
+| Transport & Storage Locks | Retractable leg assemblies that collapse flush into central column with single travel-lock toggle | Motorized automated axis locks with heavy steel mechanical latch pins | Custom hard-shell storage case with quick-release mounting plate and magnetic arm retention |
+| Selected Hybrid Innovation | Tri-Axis Gyro-Damped Swivel Foot | Self-Sealing Magnetic Quick-Dock | Smart LED Safety Edge Ring (for low-light night field ops) |
+
+
 
 ## Step Four
 
