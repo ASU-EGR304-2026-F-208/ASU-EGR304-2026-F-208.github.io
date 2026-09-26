@@ -139,6 +139,7 @@ Thematic Grouping, Ranking, and Feature Rationale
 | Theme 5: Transport, Storage & Modularity | Travel-Lock Toggle Lever | 4 | 5 | 20 | Mechanically locks folded leg assemblies flush against central column with single motion |
 
 Product Concepts
+
 | Subsystem / Feature Category | Concept 1: Tripod Retractable Base | Concept 2: Heavy-Duty Hydraulic Table | Concept 3: Portable Emergency Response Table |
 | :--- | :--- | :--- | :--- |
 | Primary Design Philosophy | Minimalist 3-point geometry offering fast self-leveling on uneven surfaces with fully retractable legs for space-saving storage | Maximum payload capacity and industrial durability using high-force hydraulic actuators for dynamic commercial environments | Rapid field deployment, extreme weather/terrain resilience, and easy sanitization for crisis medical and tactical operations |
