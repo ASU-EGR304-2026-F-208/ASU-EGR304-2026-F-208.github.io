@@ -155,5 +155,23 @@ Product Concepts
 
 ## Step Four
 
-Add your different product concepts stuff here
+![ID_1](image/DI_1.png)
+![ID_2](image/DI_2.png)
+![ID_3](image/DI_3.png)
 
+## Step 5
+
+#### Team Design Ideation
+
+In our brainstorming session, each of us made sure that we were open to all ideas, opinions, and perspectives to make sure that all possible solutions would be acknowledged. The participants of the brainstorming consisted of Joseph Nunez, Caden Laughlin, and Emma Cumiford. We met in a Discord call using a Canva document to separate user needs, features, and their correlating groupings in a visual manner using sticky notes. This approach was beneficial as our team could, in real time, identify which user needs fit a logical grouping and find which ones connected the best, forming possible features. Each of us would say an idea out loud and the others would share their opinion and possible details regarding the feature’s relevance to the user’s need. This would keep ideas fresh while allowing us to build from each other’s ideas.
+
+
+
+We took information from the user’s needs and benchmarking assignment and the team organization assignment as we had to evaluate the audience and target goal that our product would need to meet. In conducting the user needs and benchmarking assignment, we found that the target audience online was more drawn towards the restaurant, film, health, military, and marine industries when it came to self-stabilizing tables or platforms. These discoveries allowed us to further refine our ideation process and develop the classes of features into more distinct categories. 
+
+
+To generate ideas, we used the internet and the articles provided so that we could follow a structured brainstorming approach. Using the internet, our team was able to find different perspectives on the products that we had researched during the user needs and benchmarking assignment, gaining perspective into possible solutions that others needed. Furthermore, we used the internet to see features implemented into similar products that we could possibly incorporate in our own way by comparing them with our own ideas.
+
+Features were partitioned into the groups of Service, Appearance, Performance, Assembly, Control, and Rigidity. These groups were chosen because they appeared the most in user feedback on the product adjacent to our project. Users constantly leave reviews on these topics, either complimenting or complaining about shipping times, ease of assembly, durability, or user input. Since these were the most common, we believed that they deserved their own categories for the brainstorming process. By grouping them into these categories, we were, more effectively, able to compare ideas with each other and create possible features into a product.
+
+Ideas were ranked based on the audience we were targeting, the prevalence of a complaint or need vocalized by customers, and the feasibility of being able to accomplish each feature. Finally, we synthesized possible aligning features together to form products that could achieve the main goal of a self-stabilizing table.
