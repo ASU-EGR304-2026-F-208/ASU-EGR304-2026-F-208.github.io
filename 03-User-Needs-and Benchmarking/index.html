@@ -1,0 +1,2154 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+
+<meta name="robots" content="nofollow">
+
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://embedded-systems-design.github.io/EGR304TeamTemplate/03-User-Needs-and%20Benchmarking/">
+      
+      
+        <link rel="prev" href="../02-Team-Organization/">
+      
+      
+        <link rel="next" href="../04-Product-Requirements/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../static/logo304.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+            
+
+    
+
+    
+      
+        <title>User Needs and Benchmarking - EGR304 Team Report Template</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#voice-of-the-customer-benchmarking-example" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="EGR304 Team Report Template" class="md-header__button md-logo" aria-label="EGR304 Team Report Template" data-md-component="logo">
+      
+  <img src="../static/logo304.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            EGR304 Team Report Template
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              User Needs and Benchmarking
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/embedded-systems-design/EGR304TeamTemplate" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../02-Team-Organization/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Team Organization
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  User Needs and Benchmarking
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../04-Product-Requirements/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Product Requirements
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../05-design-ideation/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Design Ideation
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../06-team-block-diagram/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Team Block Diagram
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../07-Software%20Proposal/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Software Proposal
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Appendix/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Appendix
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="EGR304 Team Report Template" class="md-nav__button md-logo" aria-label="EGR304 Team Report Template" data-md-component="logo">
+      
+  <img src="../static/logo304.svg" alt="logo">
+
+    </a>
+    EGR304 Team Report Template
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/embedded-systems-design/EGR304TeamTemplate" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-Team-Organization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Team Organization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Needs and Benchmarking
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Needs and Benchmarking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#voice-of-the-customer-benchmarking-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Voice of the Customer Benchmarking Example
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Voice of the Customer Benchmarking Example">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#search-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search #1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selected-products" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selected Products
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selected Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-self-stabilizing-black-table-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Self-Stabilizing Black Table Base
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Self-Stabilizing Black Table Base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#positive-comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Positive Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negative Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search #2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selected-products_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selected Products
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selected Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2-flat-tech" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. FLAT Tech
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#positive-comments_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Positive Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-comments_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negative Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search #3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selected-products_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selected Products
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selected Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-flat-auto-adjust-px23-self-stabilizing-parisian-cast-iron-table-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. FLAT AUTO-Adjust PX23 Self-Stabilizing Parisian Cast Iron Table Base
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. FLAT AUTO-Adjust PX23 Self-Stabilizing Parisian Cast Iron Table Base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#positive-comments_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Positive Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-comments_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negative Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search #4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selected-products_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selected Products
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selected Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2-segway-ninebot-s2-electric-self-balancing-scooter-httpsstoresegwaycomninebot-s2utm_sourcegoogleutm_mediumpmaxutm_campaignid17209955658gad_source4gad_campaignid17209975344gbraid0aaaaabqjf-1azkamepy4nnrchv_iigukwgclidcjwkcajw2apvbhbkeiwa0cpttzp5xpktfkvnrsdhg1uy881yemskkta5xv2shphzireaxveqws0lnxocnhyqavd_bwe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. [Segway Ninebot S2 Electric Self-Balancing Scooter] (https://store.segway.com/ninebot-s2?utm_source=google&amp;utm_medium=pmax&amp;utm_campaignid=17209955658&amp;gad_source=4&amp;gad_campaignid=17209975344&amp;gbraid=0AAAAABqJF-1azKaMePy4NnRchV_iiGukW&amp;gclid=CjwKCAjw2aPVBhBkEiwA0Cpttzp5xPkTFKvNrSdHg1Uy881yemSkkta5xv2sHPHzIrEaxVeqwS0LnxoCnhYQAvD_BwE)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#positive-comments_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Positive Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-comments_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negative Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search #5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selected-products_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selected Products
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selected Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-dji-rs-3-pro-combo-handheld-3-axis-gimbal-stabilizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. DJI RS 3 Pro Combo Handheld 3-Axis Gimbal Stabilizer
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. DJI RS 3 Pro Combo Handheld 3-Axis Gimbal Stabilizer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#positive-comments_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Positive Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-comments_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negative Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organized-need-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Organized Need Statements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Organized Need Statements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-placement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First Placement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grouped-with-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grouped with categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ranked" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ranked
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compiled-list-of-user-needs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compiled list of user Needs
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-Product-Requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-design-ideation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Ideation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-team-block-diagram/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Team Block Diagram
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-Software%20Proposal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software Proposal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Appendix/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#voice-of-the-customer-benchmarking-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Voice of the Customer Benchmarking Example
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Voice of the Customer Benchmarking Example">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#search-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search #1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selected-products" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selected Products
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selected Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-self-stabilizing-black-table-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Self-Stabilizing Black Table Base
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Self-Stabilizing Black Table Base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#positive-comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Positive Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negative Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search #2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selected-products_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selected Products
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selected Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2-flat-tech" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. FLAT Tech
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#positive-comments_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Positive Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-comments_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negative Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search #3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selected-products_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selected Products
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selected Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-flat-auto-adjust-px23-self-stabilizing-parisian-cast-iron-table-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. FLAT AUTO-Adjust PX23 Self-Stabilizing Parisian Cast Iron Table Base
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. FLAT AUTO-Adjust PX23 Self-Stabilizing Parisian Cast Iron Table Base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#positive-comments_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Positive Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-comments_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negative Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search #4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selected-products_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selected Products
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selected Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2-segway-ninebot-s2-electric-self-balancing-scooter-httpsstoresegwaycomninebot-s2utm_sourcegoogleutm_mediumpmaxutm_campaignid17209955658gad_source4gad_campaignid17209975344gbraid0aaaaabqjf-1azkamepy4nnrchv_iigukwgclidcjwkcajw2apvbhbkeiwa0cpttzp5xpktfkvnrsdhg1uy881yemskkta5xv2shphzireaxveqws0lnxocnhyqavd_bwe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. [Segway Ninebot S2 Electric Self-Balancing Scooter] (https://store.segway.com/ninebot-s2?utm_source=google&amp;utm_medium=pmax&amp;utm_campaignid=17209955658&amp;gad_source=4&amp;gad_campaignid=17209975344&amp;gbraid=0AAAAABqJF-1azKaMePy4NnRchV_iiGukW&amp;gclid=CjwKCAjw2aPVBhBkEiwA0Cpttzp5xPkTFKvNrSdHg1Uy881yemSkkta5xv2sHPHzIrEaxVeqwS0LnxoCnhYQAvD_BwE)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#positive-comments_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Positive Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-comments_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negative Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search #5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selected-products_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selected Products
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selected Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-dji-rs-3-pro-combo-handheld-3-axis-gimbal-stabilizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. DJI RS 3 Pro Combo Handheld 3-Axis Gimbal Stabilizer
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. DJI RS 3 Pro Combo Handheld 3-Axis Gimbal Stabilizer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#positive-comments_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Positive Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-comments_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negative Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organized-need-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Organized Need Statements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Organized Need Statements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-placement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First Placement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grouped-with-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grouped with categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ranked" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ranked
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compiled-list-of-user-needs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compiled list of user Needs
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/embedded-systems-design/EGR304TeamTemplate/edit/main/docs/03-User-Needs-and Benchmarking.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+
+
+  <h1>User Needs and Benchmarking</h1>
+
+<h2 id="voice-of-the-customer-benchmarking-example">Voice of the Customer Benchmarking Example</h2>
+<h3 id="search-1">Search #1</h3>
+<p><strong>Keywords:</strong> "Self stabilizing table"</p>
+<p><strong>Search Results Link:</strong> <a href="https://www.google.com/search?q=Self+stabilizing+table&amp;sca_esv=ffcf0adbfdee8899&amp;udm=14&amp;sxsrf=APpeQnucElEp7KMCV5AdGRwreOk7TzzLCw%3A1789455484231&amp;ei=fOyoaqPaDZuzqtsPlqaz2AI&amp;ved=2ahUKEwijiOqTgfCWAxWbmWoFHRbTDCsQ4dUDegQIBhAM&amp;uact=5&amp;oq=Self+stabilizing+table&amp;gs_lp=Ehlnd3Mtd2l6LW1vZGVsZXNzLXdlYi1vbmx5IhZTZWxmIHN0YWJpbGl6aW5nIHRhYmxlMgsQABiABBiKBRiRAjIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMggQABgWGB4YCjIGEAAYFhgeMgYQABgWGB5IwSFQAFi1HnAAeACQAQCYAcwBoAHPFaoBBjYuMTQuMrgBA8gBAPgBAZgCFqAC5xbCAgoQABiABBiKBRhDwgIOEAAYgAQYigUYsQMYgwHCAhEQABiABBiKBRiNBhixAxiDAcICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAhAQABiABBiKBRhDGLEDGIMBwgINEAAYgAQYigUYQxixA8ICCBAAGIAEGJIDwgIIEAAYgAQYyQPCAgwQABiABBgKGAsYsQPCAg8QABiABBgKGAsYsQMYgwGYAwCSBwY1LjE1LjKgB8l_sgcGNS4xNS4yuAfnFsIHBDItMjLIB3OACAE&amp;sclient=gws-wiz-modeless-web-only">Search Link</a></p>
+<h3 id="selected-products">Selected Products</h3>
+<h4 id="1-self-stabilizing-black-table-base">1. <a href="https://tablebases.com/no-rock-esplanade-black-self-stabilizing-table-bases-1">Self-Stabilizing Black Table Base</a></h4>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/Self_Stabilizing_Table_Base.png" data-desc-position="bottom"><img alt="Table" src="../image/Self_Stabilizing_Table_Base.png"></a></p>
+<ul>
+<li>
+<p>Price: $359.99</p>
+</li>
+<li>
+<p>Vendor: Tablebases.com</p>
+</li>
+<li>
+<p>Description: The patented suspension mechanism is connected to four independent legs that move up and down to ensure no rocking. They are made from sturdy, light, weight aluminum, allowing use indoors or outdoors. </p>
+</li>
+</ul>
+<h5 id="positive-comments">Positive Comments</h5>
+<table>
+<thead>
+<tr>
+<th>Voice of the Customer</th>
+<th>Restated Customer Need</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"“The table is a solid base. It looks great. No paint blemish's and easy to put together.”"</td>
+<td>1.  The table base provides a secure foundation (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2.  The table base has a professional appearance (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>3.  The product can be assembled with minumum effort(explicit)</td>
+</tr>
+<tr>
+<td>"The table base was perfect. Super high quality, heavy, and exactly as described. Assembly was very easy."</td>
+<td>1.  The product is durable and built with quality materials (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2.  The product matches its advertised specification (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>3.  The assembly process is simple and intuitive (explicit)</td>
+</tr>
+<tr>
+<td>"This counter height base was the exact height I was looking for...other sites offered bases that were an inch (or more) too short. Product was delivered quickly and in perfect condition. No screws are provided for attaching a custom table top but I already had suitable screws for my wood top so I didn't have to visit the hardware. My table looks great!"</td>
+<td>1. The product is available necessary dimensions (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The product arrives promptly, without damage (latent)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. The assembled table has a pleasant aesthetic (latent)</td>
+</tr>
+</tbody>
+</table>
+<h5 id="negative-comments">Negative Comments</h5>
+<table>
+<thead>
+<tr>
+<th>Voice of the Customer</th>
+<th>Restated Customer Need</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Table base was received on time, although the was pretty torn up. Luckily, the base was not damaged. I love the look of the base, but am a little disappointed in how it goes together. I found it tricky to get all of the parts to center properly, and regardless of how much I tightened the nuts, there is nothing to prevent the top from turning."</td>
+<td>1.  The components align easily during assembly (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2.  Product can be assembled without precise measurment (latent)</td>
+</tr>
+<tr>
+<td></td>
+<td>3.  The top remains securely position, without rotating (explicit)</td>
+</tr>
+<tr>
+<td>"It would help to know how the leg attaches to the base. That information didn't appear to be listed. I'm guessing that, like most table bases, they are held together by a single screw. I was hoping for something more stable than a single screw. This is my first time trying your company and if this doesn't work, it will be lesson learned. This is for a university campus so we will see how it holds up."</td>
+<td>1. Clearly communicates assembly process(explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The product provides a secure and stable connection between components(explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. The product maintains statbility under frequent usage (latent)</td>
+</tr>
+<tr>
+<td>"The base I ordered came very quickly and it's a solid, heavy unit. My only comment would be that for stainless steel, it felt like there was not a lot of protective packaging. My base was fine but the boxes were in pretty rough shape by the time they came to me."</td>
+<td>1. Product is protected during shipping (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. Product arrives without cosmetic or structural damages (latent)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. Product provides a sturdy base (explicit)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="search-2">Search #2</h3>
+<p><strong>Keywords:</strong>"self stabilizing table base uneven floor"</p>
+<p><strong>Search Results Link:</strong> <a href="https://www.google.com/search?q=self+stabilizing+table+base+uneven+floor&amp;sca_esv=6f3ccd550fd6cf18&amp;sxsrf=APpeQnshCVmQ684XtGwKD3m0rWI3C26Ptw%3A1789495965013&amp;ei=nYqpaoE86a-t9w-s4-b4DA&amp;biw=2352&amp;bih=1415&amp;ved=2ahUKEwjB_sj6l_GWAxXpV-sIHayxGc8Q4dUDegQIBhAM&amp;uact=5&amp;oq=self+stabilizing+table+base+uneven+floor&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiKHNlbGYgc3RhYmlsaXppbmcgdGFibGUgYmFzZSB1bmV2ZW4gZmxvb3IyDhAAGIAEGIoFGIYDGLADMg4QABiABBiKBRiGAxiwAzIIEAAY7wUYsAMyCxAAGIAEGKIEGLADMgsQABiABBiiBBiwA0iSBlAAWABwAXgAkAEAmAEAoAEAqgEAuAEDyAEAmAIBoAIEmAMAiAYBkAYFkgcBMaAHALIHALgHAMIHAzItMcgHA4AIAQ&amp;sclient=gws-wiz-serp">Search Link</a></p>
+<h3 id="selected-products_1">Selected Products</h3>
+<h4 id="2-flat-tech">2. <a href="https://www.bestbuy.com/product/dji-rs-5-combo-camera-stabilizer-black/JJ82LXXJ7L/sku/6671579?utm_source=feed&amp;extStoreId=&amp;ref=212&amp;loc=20155919705&amp;gclsrc=aw.ds&amp;gad_source=4&amp;gad_campaignid=20151703182&amp;gbraid=0AAAAAD-ORIhUQALzbB9tjXYsE8U8xogyM&amp;gclid=CjwKCAjw2aPVBhBkEiwA0Cptt7v702bAhG6wDLJbHVZMJQj5xr1uiuq7cmhCcUGRcF-GIwsVZmvK9xoCQlcQAvD_BwE">FLAT Tech</a></h4>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/FLAT_Tech.png" data-desc-position="bottom"><img alt="Table" src="../image/FLAT_Tech.png"></a></p>
+<ul>
+<li>
+<p>Price: $121.00</p>
+</li>
+<li>
+<p>Vendor: WebstaurantStore</p>
+</li>
+<li>
+<p>Description: Capable of adapting to uneven flooring, the FLAT Tech CT2007 22” x 22” auto adjustable table base brings unmatched leveling abilities to your restaurant, diner, or coffee shop. This product is designed to automatically adjust to changes in the floor whenever it’s moved, so you can rearrange your dining room without worrying about your tables sitting unevenly. Additionally, this FLAT Tech table base is crafted from cast iron with a textured black finish that offers a classic look in any business.</p>
+</li>
+</ul>
+<h4 id="positive-comments_1">Positive Comments</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Voice of the Customer</strong></th>
+<th><strong>Restated Customer Need</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"These table bases work! We are in an old refurbished building, so our floors are very uneven. We had thick oak tabletops made and installed these bases ourselves. They are very sturdy and the tables do not rock. Absolutely recommend!"</td>
+<td>1. The product maintains stability on uneven surfaces (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The product provides a sturdy foundation for a table top (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. The product can be installed without professional assistance (latent)</td>
+</tr>
+<tr>
+<td>"These really work! Not a wobbly table in our 100 year old building. One thing I will note is that in the self-leveling process sometimes it means that tables adjacent to one another are not exactly level with each other (they'll be level but one will be higher or lower) but they likely wouldn't be with standard bases anyway since the real problem is the floor they're standing on. Well worth the investment."</td>
+<td>1. The product prevents table wobble during use (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The product operates efficiently on irregular flooring conditions (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. The product maintains a consistent, level height (latent)</td>
+</tr>
+<tr>
+<td>"YOU HAVE GOT TO GET THESE!!! OMG these are amazing. No more folded napkins to get the table to sit level. I am so in love with these its ridiculous."</td>
+<td>1. The product maintains a level support without the need for additional supports (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The product requires minimal user input to mainatain stability (latent)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. The product provides a convenient method of accomodating uneneven floors (latent)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="negative-comments_1">Negative Comments</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Voice of the Customer</strong></th>
+<th><strong>Restated Customer Need</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"I purchased this table base last summer in the hopes of eliminating the need to have to bend down between guests to stop the table from wobbling. Unfortunately it was too good to be true. The table leans to whichever side a customer puts his hand or arm down, effectively creating a see-saw effect."</td>
+<td>1. The product remains stable when weight is placed on one side (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The product maintains stability when load is applied variably (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. The product performs consistently with its advertised capabilities (latent</td>
+</tr>
+<tr>
+<td>"For the price difference between these legs and standard table legs, you would expect the tables to balance like the video shows, but they don't. They make it look like it automatically balances as the floor level changes, but you have to push on the edges of the tables to get the table to level out and the second someone puts any weight on their side of the table, it's off until someone pushes on the other side."</td>
+<td>1. The product automatically reaches its stabilized position after being moved (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The product remains stable when load is applied (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. The stabilization systems accomodates loads from all side (latent)</td>
+</tr>
+<tr>
+<td>"These really work! Not a wobbly table in our 100 year old building. One thing I will note is that in the self-leveling process sometimes it means that tables adjacent to one another are not exactly level with each other (they'll be level but one will be higher or lower) but they likely wouldn't be with standard bases anyway since the real problem is the floor they're standing on. Well worth the investment."</td>
+<td>1. The product can maintain a consistent height with surrounding surfaces (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. Multiple surfaces can be positioned together for a flat surface (latent)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. Stabilization process does not interfere with table arrangement (latent)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="search-3">Search #3</h3>
+<p><strong>Keywords:</strong> "FLAT AUTO-Adjust PX23 Self-Stabilizing Parisian Cast Iron Table Base"</p>
+<p><strong>Search Results Link:</strong> <a href="https://www.google.com/search?q=Cast+Iron+Table+Base&amp;sca_esv=6a0a97182983e41a&amp;sxsrf=APpeQnvjgz9_mnUTcVz06ZNHLn_YuvDJ8A%3A1789545937663&amp;ei=0U2qasKEKLPKkPIPrfeaoAc&amp;biw=1536&amp;bih=730&amp;uact=5&amp;oq=Cast+Iron+Table+Base&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiFENhc3QgSXJvbiBUYWJsZSBCYXNlMgoQABiABBiKBRhDMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeSP4LUABYrANwAHgAkAEAmAFfoAGZAaoBATK4AQPIAQD4AQGYAgKgAq8BmAMAkgcDMS4xoAfFC7IHAzEuMbgHrwHCBwUyLTEuMcgHEIAIAQ&amp;sclient=gws-wiz-serp">Search Link</a></p>
+<h3 id="selected-products_2">Selected Products</h3>
+<h4 id="1-flat-auto-adjust-px23-self-stabilizing-parisian-cast-iron-table-base">1. <a href="https://www.amazon.com/FLAT-Self-Stabilizing-PX23-23-Antique/dp/B00YACF9DC">FLAT AUTO-Adjust PX23 Self-Stabilizing Parisian Cast Iron Table Base</a></h4>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/FLAT_PX23_Table_Base.jpg" data-desc-position="bottom"><img alt="FLAT AUTO-Adjust PX23 Table Base" src="../image/FLAT_PX23_Table_Base.jpg"></a></p>
+<ul>
+<li>
+<p>Price: $168.00</p>
+</li>
+<li>
+<p>Vendor: Amazon</p>
+</li>
+<li>
+<p>Description: The FLAT AUTO-Adjust PX23 table base features heavy-duty cast iron construction with a classic X-shaped Parisian aesthetic. Equipped with patented hydraulic PAD technology, the base automatically self-adjusts to uneven flooring to eliminate table wobble and enable seamless tabletop alignment. It supports square tops up to 30 inches and round tops up to 32 inches at standard dining height.</p>
+</li>
+</ul>
+<h5 id="positive-comments_2">Positive Comments</h5>
+<table>
+<thead>
+<tr>
+<th>Voice of the Customer</th>
+<th>Restated Customer Need</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"We have had the product for a year and love the aesthetic..."</td>
+<td>1. The product provides a classic, attractive Parisian design (explicit)<br>2. The aesthetic quality holds up well over long-term use (latent)</td>
+</tr>
+<tr>
+<td>"The base is really solid. The adjustable feature is awesome it saves my hardwood floor from getting marred as well as adjust..."</td>
+<td>1. The base material provides heavy, solid stability (explicit)<br>2. Self-adjusting feet prevent scratching or marring hardwood floors (explicit)<br>3. Automatic stabilization easily corrects uneven surfaces (latent)</td>
+</tr>
+</tbody>
+</table>
+<h5 id="negative-comments_2">Negative Comments</h5>
+<table>
+<thead>
+<tr>
+<th>Voice of the Customer</th>
+<th>Restated Customer Need</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"The self-leveling device is leaking oil. The table comes with an extra so make sure you hang onto it. Also, pay attention in case it would ruin a floor or rugs. We have had the product for a year and love the aesthetic but we will probably have to purchase something else if the stabilizers fail again."</td>
+<td>1. Hydraulic self-leveling feet remain completely sealed without leaking fluid (explicit)<br>2. Stabilizer components operate reliably over time without requiring replacement (explicit)<br>3. The unit poses no risk of staining or damaging delicate floors and rugs (latent)</td>
+</tr>
+<tr>
+<td>"These table bases are beautiful and extremely heavy. I put 36x36 table tops on and it was way to big- tried 30x30 and it still tipped if you put pressure on the corner. finally had to settle for 24" round tops..."</td>
+<td>1. Table base maintains balance and stability when paired with recommended top sizes (explicit)<br>2. Weight distribution prevents tipping when downward pressure is applied to tabletop corners (latent)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="search-4">Search #4</h3>
+<p><strong>Keywords:</strong>"self balancing base"</p>
+<p><strong>Search Results Link:</strong> [Search Link] https://www.google.com/search?q=self+balancing+base+&amp;sca_esv=672a25f6bc86d272&amp;biw=1047&amp;bih=532&amp;sxsrf=APpeQnu0y1OH_jjLHHx3b2XwVv2o79d2cw%3A1789539648241&amp;ei=QDWqapyoDpzNkPIP69C6sQ8&amp;uact=5&amp;oq=self+balancing+base+&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiFHNlbGYgYmFsYW5jaW5nIGJhc2UgMgQQIxgnMgYQABgWGB4yBhAAGBYYHjILEAAYgAQYigUYhgMyCBAAGIAEGKIEMgUQABjvBTIFEAAY7wUyBRAAGO8FSNcLUIgDWIgDcAF4AZABAJgBXaABXaoBATG4AQPIAQD4AQGYAgKgAmPCAgoQABhHGNYEGLADmAMAiAYBkAYIkgcBMqAH0QWyBwExuAdgwgcDMC4yyAcEgAgB&amp;sclient=gws-wiz-serp </p>
+<h3 id="selected-products_3">Selected Products</h3>
+<h4 id="2-segway-ninebot-s2-electric-self-balancing-scooter-httpsstoresegwaycomninebot-s2utm_sourcegoogleutm_mediumpmaxutm_campaignid17209955658gad_source4gad_campaignid17209975344gbraid0aaaaabqjf-1azkamepy4nnrchv_iigukwgclidcjwkcajw2apvbhbkeiwa0cpttzp5xpktfkvnrsdhg1uy881yemskkta5xv2shphzireaxveqws0lnxocnhyqavd_bwe">2. [Segway Ninebot S2 Electric Self-Balancing Scooter] (https://store.segway.com/ninebot-s2?utm_source=google&amp;utm_medium=pmax&amp;utm_campaignid=17209955658&amp;gad_source=4&amp;gad_campaignid=17209975344&amp;gbraid=0AAAAABqJF-1azKaMePy4NnRchV_iiGukW&amp;gclid=CjwKCAjw2aPVBhBkEiwA0Cpttzp5xPkTFKvNrSdHg1Uy881yemSkkta5xv2sHPHzIrEaxVeqwS0LnxoCnhYQAvD_BwE)</h4>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="image/segway.avif" data-desc-position="bottom"><img alt="Table" src="image/segway.avif"></a></p>
+<ul>
+<li>
+<p>Price: $649.99</p>
+</li>
+<li>
+<p>Vendor: TuvRheinland</p>
+</li>
+<li>
+<p>Description: The Ninebot S2 is a premium self-balancing scooter designed for smooth, stable, and stylish rides. Perfect for both teens and adults, it features an adjustable knee control bar for a customized fit, ensuring maximum comfort and control. Personalize your experience with RGB wheel lights and taillights, plus enjoy music on the go with the built-in Bluetooth speaker. The Ninebot S2 is the ultimate blend of style, comfort, and technology.</p>
+</li>
+</ul>
+<h4 id="positive-comments_3">Positive Comments</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Voice of the Customer</strong></th>
+<th><strong>Restated Customer Need</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Having medical issues with my legs, the Ninebot allows me to be much more active around the yard. The Ninebot is well worth the money for the technology and name that supports the device. I am currently 66 and do not have a problem enjoying this device. Thank You. . . ."</td>
+<td>1. The product is helpful for people with diasbilities (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The product provided a lot of stability(explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. The product is user friendly (latent)</td>
+</tr>
+<tr>
+<td>"The NineBot S2 is perfect for our use. We use 2 earlier models here on the ranch and just bought 2 more for grandsons to use at college. Parking is a pain and these solve that problem. QUESTION: How and what type of lock do you recommend on campus with a bike rack? Can a U lock go through the frame anywhere on the S2?"</td>
+<td>1. The product was built was highly reliblity (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The product can handle very bumpy roads (latent)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. The product can be used by many ages (latent)</td>
+</tr>
+<tr>
+<td>"I try to half price competitor with a hover board and it was cheap, and flimsy, and I ended up returning it. Then I discovered Segway and this is leaps and bounds better than any other knock off at a very favorable price point. I’m extremely happy with my purchase and I’m glad I decided to go with Segway rather than an off brand. Segway makes quality products and you will know the difference and it’s well worth the extra money"</td>
+<td>1. The product is worth more money if it shows reliabiltyexplicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The product was stabile (latent)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. The products was easy to use (latent)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="negative-comments_3">Negative Comments</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Voice of the Customer</strong></th>
+<th><strong>Restated Customer Need</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"This is a piece of junk. I can’t even charge. I can’t even turn them off. It was a piece of junk. You guys sell me"</td>
+<td>1. The product needs to have a good battery life (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The products needs to be easy to trouble shoot(explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. The product was not very good(explicit)</td>
+</tr>
+<tr>
+<td>"Something internally in the mechanism that controls turning broke within a few hours of riding"</td>
+<td>1. The product should last longer than a few hours (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The product should be easy to troubleshoot (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. There should be a testing period before shipping (latent)</td>
+</tr>
+<tr>
+<td>"I’ve been trying for 3 weeks to return 2 scooters that were ordered by mistake. The same day I placed the order because I had thought I had ordered 3 and only one came in the day before, the other 2 were delivered. I tried to call and cancel the new order and they were closed so I emailed requesting cancellation. Called at 6 am on Monday and was told email was received for cancellation. Then Monday afternoon I get notification the order has shipped for the 2 I had cancelled. You can never get a person from America to converse with it’s all by email and with foreigners that don’t understand. It is very frustrating I will NEVER order from Segway again. My grandkids love their scooters but I would suggest buying from Amazon they are much easier to deal with."</td>
+<td>1. The product is very unreliable after cyclical action (explicit)</td>
+</tr>
+<tr>
+<td></td>
+<td>2. The product needs a more reliable ealier on(latent)</td>
+</tr>
+<tr>
+<td></td>
+<td>3. The product should not break with such little use (latent)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="search-5">Search #5</h3>
+<p><strong>Keywords:</strong> "DJI RS 3 Pro Combo camera gimbal stabilizer"</p>
+<p><strong>Search Results Link:</strong> <a href="https://www.google.com/search?q=camera+gimbal+stabilizer&amp;sca_esv=6a0a97182983e41a&amp;sxsrf=APpeQntbsip23F1H4WjLqmHegmHo3podLA%3A1789544362749&amp;ei=qkeqaumpLa_NkPIP99Xe-Q4&amp;biw=1536&amp;bih=730&amp;uact=5&amp;oq=camera+gimbal+stabilizer&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiGGNhbWVyYSBnaW1iYWwgc3RhYmlsaXplcjILEAAYgAQYigUYkQIyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB5ItAhQAFiuBnAAeAGQAQCYAWSgAbUBqgEDMS4xuAEDyAEA-AEBmAICoALLAZgDAJIHAzEuMaAH4QuyBwMxLjG4B8sBwgcFMi0xLjHIBxCACAE&amp;sclient=gws-wiz-serp">Search Link</a></p>
+<h3 id="selected-products_4">Selected Products</h3>
+<h4 id="1-dji-rs-3-pro-combo-handheld-3-axis-gimbal-stabilizer">1. <a href="https://www.bhphotovideo.com/c/product/803537642-USE/dji_cp_rn_00000218_03_rs_3_pro_gimbal.html/reviews">DJI RS 3 Pro Combo Handheld 3-Axis Gimbal Stabilizer</a></h4>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/DJI_RS3_Pro_Combo.png" data-desc-position="bottom"><img alt="DJI RS 3 Pro Combo" src="../image/DJI_RS3_Pro_Combo.png"></a></p>
+<ul>
+<li>
+<p>Price: $1,099.00</p>
+</li>
+<li>
+<p>Vendor: B&amp;H Photo Video</p>
+</li>
+<li>
+<p>Description: The DJI RS 3 Pro Combo features extended carbon fiber axis arms, automated axis locks, a 4.5kg (10 lb) tested payload capacity, support for LiDAR focusing systems, and the O3 Pro video transmission system. This combo kit includes the gimbal along with the Focus Motor (2022) and Ronin Image Transmitter (RavenEye) for full professional cinema workflows.</p>
+</li>
+</ul>
+<h5 id="positive-comments_4">Positive Comments</h5>
+<table>
+<thead>
+<tr>
+<th>Voice of the Customer</th>
+<th>Restated Customer Need</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Love the RS 3, really like that the combo comes with everything I need (focus motor, and raveneye transmitter). So much easier to balance than the older models"</td>
+<td>1. The product includes all required accessories in the package (explicit)<br>2. The product is easier to balance compared to prior generations (explicit)<br>3. The accessory setup simplifies operation (latent)</td>
+</tr>
+<tr>
+<td>"This thing is a beast. I was worried that I would have trouble calibrating and setting it up, but there are some great YouTube videos from the company that walk you through it. This is such a great tool for my work projects! I love it!"</td>
+<td>1. Official instructional video resources are available to assist with setup (explicit)<br>2. The product provides strong stabilization performance for professional projects (explicit)<br>3. The initial calibration process is straightforward to learn (latent)</td>
+</tr>
+<tr>
+<td>"The RS3 Pro is made for larger equipment. I struggled to get my RF28-70 f2 balanced on the RS2, but the RS3 handles it without any issue. It was easy to set up and pair to my phone. The on screen configuration is intuitive, along with the switch to change what mode you wish to shoot in. The built in battery seems to last for a decent amount of time. Overall, the system is well built and has many customizable options to maximize flexibility and to ensure smooth movements. Balancing was easy as well."</td>
+<td>1. The product accommodates heavy camera bodies and lens combinations (explicit)<br>2. The smartphone pairing and on-screen interface are simple to navigate (explicit)<br>3. The battery life supports extended shooting sessions (explicit)</td>
+</tr>
+</tbody>
+</table>
+<h5 id="negative-comments_4">Negative Comments</h5>
+<table>
+<thead>
+<tr>
+<th>Voice of the Customer</th>
+<th>Restated Customer Need</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"I've had this gimbal for a couple years and it's not really used that much. Over the last six months, I've had increasingly frequent issues where the motors fail to engage when turning the gimbal on. they will then be unresponsive until the gimbals been turned off with the battery removed for several hours. This thing is useless if I can't rely on it to start up on location. It's a shame that a product as expensive as this can't be expected to last more than a couple years before needing to be replaced."</td>
+<td>1. The product startup and motors operate reliably on location (explicit)<br>2. The internal motor components remain functional over several years of ownership (explicit)<br>3. The unit recovers quickly without requiring battery removal for extended periods (latent)</td>
+</tr>
+<tr>
+<td>"A7slll to Raven Eye is a challenge with the Sony menu but the FX3 worked pretty quickly. The RS3 Pro is good for up to 9lbs and has a few too many menu options. Good to have but not always the options I need as a pro under pressure. BnH staff where super helpful getting me close enough to be ready and quickly."</td>
+<td>1. Menu options are streamlined for fast navigation under pressure (explicit)<br>2. Camera connection setup is straightforward across different camera models (explicit)<br>3. System integration minimizes menu setup friction (latent)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="organized-need-statements">Organized Need Statements</h2>
+<h3 id="first-placement">First Placement</h3>
+<h3 id="grouped-with-categories">Grouped with categories</h3>
+<h3 id="ranked">Ranked</h3>
+<h2 id="compiled-list-of-user-needs">Compiled list of user Needs</h2>
+<ol>
+<li>The device will...</li>
+<li>The device is ...</li>
+<li>The device can ...</li>
+<li>The device is...</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../02-Team-Organization/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Team Organization">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Team Organization
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../04-Product-Requirements/" class="md-footer__link md-footer__link--next" aria-label="Next: Product Requirements">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Product Requirements
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2025 team-name-here
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="/2025_fall" target="_blank" rel="noopener" title="2023 Site" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M64 48h112v88c0 39.8 32.2 72 72 72h88v240c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16m160 19.9 92.1 92.1H248c-13.3 0-24-10.7-24-24zM64 0C28.7 0 0 28.7 0 64v384c0 35.3 28.7 64 64 64h256c35.3 0 64-28.7 64-64V186.5c0-17-6.7-33.3-18.7-45.3L242.7 18.7C230.7 6.7 214.5 0 197.5 0zm106.2 295.6c8.6-10.1 7.5-25.2-2.6-33.8s-25.2-7.5-33.8 2.6l-48 56c-7.7 9-7.7 22.2 0 31.2l48 56c8.6 10.1 23.8 11.2 33.8 2.6s11.2-23.8 2.6-33.8L135.6 336zm80-31.2c-8.6-10.1-23.8-11.2-33.8-2.6s-11.2 23.8-2.6 33.8l34.6 40.4-34.6 40.4c-8.6 10.1-7.5 25.2 2.6 33.8s25.2 7.5 33.8-2.6l48-56c7.7-9 7.7-22.2 0-31.2z"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.follow", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "content.action.edit", "navigation.footer"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

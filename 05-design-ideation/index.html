@@ -1,0 +1,1759 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+
+<meta name="robots" content="nofollow">
+
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://embedded-systems-design.github.io/EGR304TeamTemplate/05-design-ideation/">
+      
+      
+        <link rel="prev" href="../04-Product-Requirements/">
+      
+      
+        <link rel="next" href="../06-team-block-diagram/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../static/logo304.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+            
+
+    
+
+    
+      
+        <title>Design Ideation - EGR304 Team Report Template</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introoverview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="EGR304 Team Report Template" class="md-header__button md-logo" aria-label="EGR304 Team Report Template" data-md-component="logo">
+      
+  <img src="../static/logo304.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            EGR304 Team Report Template
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Design Ideation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/embedded-systems-design/EGR304TeamTemplate" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../02-Team-Organization/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Team Organization
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../03-User-Needs-and%20Benchmarking/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  User Needs and Benchmarking
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../04-Product-Requirements/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Product Requirements
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Design Ideation
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../06-team-block-diagram/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Team Block Diagram
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../07-Software%20Proposal/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Software Proposal
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Appendix/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Appendix
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="EGR304 Team Report Template" class="md-nav__button md-logo" aria-label="EGR304 Team Report Template" data-md-component="logo">
+      
+  <img src="../static/logo304.svg" alt="logo">
+
+    </a>
+    EGR304 Team Report Template
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/embedded-systems-design/EGR304TeamTemplate" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-Team-Organization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Team Organization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-User-Needs-and%20Benchmarking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Needs and Benchmarking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-Product-Requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Ideation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Ideation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#introoverview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intro/overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generating-ideas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generating Ideas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-three" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step Three
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-four" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step Four
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#team-design-ideation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Team Design Ideation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-team-block-diagram/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Team Block Diagram
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-Software%20Proposal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software Proposal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Appendix/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#introoverview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intro/overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generating-ideas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generating Ideas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-three" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step Three
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-four" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step Four
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#team-design-ideation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Team Design Ideation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/embedded-systems-design/EGR304TeamTemplate/edit/main/docs/05-design-ideation.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+
+
+  <h1>Design Ideation</h1>
+
+<h2 id="introoverview">Intro/overview</h2>
+<p>In order to produce possible designs for the project, the compiled list of user needs will be used as a baseline for the generation
+of relevant features. Our team will brainstorm together, listing possible features for each user need, ranked by importance, in
+order to determine as many solutions as possible. These solutions will then be analyzed and organized into categories that could
+become the final product.</p>
+<h2 id="generating-ideas">Generating Ideas</h2>
+<p>For each user need and product requirement, brainstorm 5 different product features that could be used to satisfy that requirement.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">requirement / need</th>
+<th style="text-align: left;">feature</th>
+<th>detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Maintains a level horizon through dynamic movements</td>
+<td style="text-align: left;">springs</td>
+<td>dampen oscillations from vibrations, keeping surface level</td>
+</tr>
+<tr>
+<td style="text-align: left;">Maintains a level horizon through dynamic movements</td>
+<td style="text-align: left;">padding</td>
+<td>absorb vibrations through padded material</td>
+</tr>
+<tr>
+<td style="text-align: left;">Maintains a level horizon through dynamic movements</td>
+<td style="text-align: left;">adjustable legs</td>
+<td>legs adjust according to reaction</td>
+</tr>
+<tr>
+<td style="text-align: left;">Maintains a level horizon through dynamic movements</td>
+<td style="text-align: left;">dampers</td>
+<td>prevent sudden motions</td>
+</tr>
+<tr>
+<td style="text-align: left;">Maintains a level horizon through dynamic movements</td>
+<td style="text-align: left;">gimbal</td>
+<td>correct vibration</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product provides a sturdy foundation</td>
+<td style="text-align: left;">bolts</td>
+<td>bolt down base to keep stationary</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product provides a sturdy foundation</td>
+<td style="text-align: left;">wide base</td>
+<td>weight is distributed over a larger area</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product provides a sturdy foundation</td>
+<td style="text-align: left;">braces</td>
+<td>reinforced base to reduce bending</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product provides a sturdy foundation</td>
+<td style="text-align: left;">rubber feet</td>
+<td>increases grip with the surface beneath</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product provides a sturdy foundation</td>
+<td style="text-align: left;">heavy weight</td>
+<td>harder to move with greater weight</td>
+</tr>
+<tr>
+<td style="text-align: left;">Maintains stability under frequent use</td>
+<td style="text-align: left;">bearings</td>
+<td>reduces friction between joints</td>
+</tr>
+<tr>
+<td style="text-align: left;">Maintains stability under frequent use</td>
+<td style="text-align: left;">shock absorbers</td>
+<td>reduce wear from force applied to structure</td>
+</tr>
+<tr>
+<td style="text-align: left;">Maintains stability under frequent use</td>
+<td style="text-align: left;">locking fasteners</td>
+<td>prevents screws and connections from coming loose over time</td>
+</tr>
+<tr>
+<td style="text-align: left;">Maintains stability under frequent use</td>
+<td style="text-align: left;">washers</td>
+<td>distributes force around fasteners</td>
+</tr>
+<tr>
+<td style="text-align: left;">Maintains stability under frequent use</td>
+<td style="text-align: left;">lubrication</td>
+<td>reduces friction of moving parts</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product remains stable when weight is placed on one side</td>
+<td style="text-align: left;">pressure sensor</td>
+<td>detects difference of weight on the surface</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product remains stable when weight is placed on one side</td>
+<td style="text-align: left;">counterweight</td>
+<td>weight is shifted depending on the difference of force</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product remains stable when weight is placed on one side</td>
+<td style="text-align: left;">accelerometer</td>
+<td>measure how the fast the surface is accelerating</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product remains stable when weight is placed on one side</td>
+<td style="text-align: left;">pivot joint</td>
+<td>surface is able to correct changes in orientation</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product remains stable when weight is placed on one side</td>
+<td style="text-align: left;">pulley</td>
+<td>counteracts weight by redistributing force</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product requires minimal user input to maintain stability</td>
+<td style="text-align: left;">motor control</td>
+<td>motors actuate response</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product requires minimal user input to maintain stability</td>
+<td style="text-align: left;">bluetooth</td>
+<td>wireless control from another device</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product requires minimal user input to maintain stability</td>
+<td style="text-align: left;">distance sensor</td>
+<td>sense changes of distance from the ground</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product requires minimal user input to maintain stability</td>
+<td style="text-align: left;">control system</td>
+<td>automatic leveling control system for level surface</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product requires minimal user input to maintain stability</td>
+<td style="text-align: left;">screen</td>
+<td>user can input configuration through an accessible interface</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product is durable</td>
+<td style="text-align: left;">metal gears</td>
+<td>withstand repeated motor movement</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product is durable</td>
+<td style="text-align: left;">enclosure</td>
+<td>protects internal electronics/structure from outside factors</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product is durable</td>
+<td style="text-align: left;">steel frame</td>
+<td>strong material to support the product</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product is durable</td>
+<td style="text-align: left;">support beams</td>
+<td>support the structure of the product, providing stronger base</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product is durable</td>
+<td style="text-align: left;">fuse</td>
+<td>reduces likelyhood of electrical failure</td>
+</tr>
+<tr>
+<td style="text-align: left;">Table base has a professional/sleek appearance</td>
+<td style="text-align: left;">wire covers</td>
+<td>hides exposed wiring</td>
+</tr>
+<tr>
+<td style="text-align: left;">Table base has a professional/sleek appearance</td>
+<td style="text-align: left;">rounded corners</td>
+<td>finished look without sharp edges</td>
+</tr>
+<tr>
+<td style="text-align: left;">Table base has a professional/sleek appearance</td>
+<td style="text-align: left;">indicator LEDs</td>
+<td>displays technological detail</td>
+</tr>
+<tr>
+<td style="text-align: left;">Table base has a professional/sleek appearance</td>
+<td style="text-align: left;">motor covers</td>
+<td>conceals mechanical components</td>
+</tr>
+<tr>
+<td style="text-align: left;">Table base has a professional/sleek appearance</td>
+<td style="text-align: left;">finished paint</td>
+<td>solid color provides aesthetic</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product maintains stability and performance over time</td>
+<td style="text-align: left;">maintenance alerts</td>
+<td>warns the user when components need inspection or service</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product maintains stability and performance over time</td>
+<td style="text-align: left;">spare parts included</td>
+<td>comes with commonly needed replacement parts</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product maintains stability and performance over time</td>
+<td style="text-align: left;">high-quality hydraulic components</td>
+<td>durable hydraulics reduce wear and maintain performance</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product maintains stability and performance over time</td>
+<td style="text-align: left;">adaptive learning system</td>
+<td>learns movements to reduce unnecessary mechanical stress</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product maintains stability and performance over time</td>
+<td style="text-align: left;">responsive customer service</td>
+<td>provides direct support for troubleshooting and repairs</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product provides a lot of stability</td>
+<td style="text-align: left;">capstan joint</td>
+<td>provides strong, controlled movement for precise adjustments</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product provides a lot of stability</td>
+<td style="text-align: left;">high-friction rubber feet</td>
+<td>increases grip on smooth surfaces to prevent sliding</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product provides a lot of stability</td>
+<td style="text-align: left;">high-sensitivity sensors</td>
+<td>detects small changes in orientation to correct quickly</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product provides a lot of stability</td>
+<td style="text-align: left;">wide, low-profile base</td>
+<td>lowers the center of gravity to resist tipping</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product provides a lot of stability</td>
+<td style="text-align: left;">ball-joint feet</td>
+<td>conforms to uneven surfaces while maintaining contact</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product provides a lot of stability</td>
+<td style="text-align: left;">independent leveling</td>
+<td>each leg adjusts independently to compensate for terrain</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product provides a lot of stability</td>
+<td style="text-align: left;">magnetic locking system</td>
+<td>secures legs or wheels once desired position is reached</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can handle very bumpy roads</td>
+<td style="text-align: left;">suspension in each leg</td>
+<td>absorbs shocks and reduces vibrations transferred to top</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can handle very bumpy roads</td>
+<td style="text-align: left;">spring-loaded telescoping legs</td>
+<td>provides vertical movement to absorb sudden terrain changes</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can handle very bumpy roads</td>
+<td style="text-align: left;">shock absorbers</td>
+<td>reduces large impacts between tabletop and chassis</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can handle very bumpy roads</td>
+<td style="text-align: left;">emergency stabilization mode</td>
+<td>lowers table closer to ground when severe instability occurs</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can handle very bumpy roads</td>
+<td style="text-align: left;">predictive stabilization</td>
+<td>detects movement changes to adjust before tipping happens</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can handle very bumpy roads</td>
+<td style="text-align: left;">battery stabilization reserve</td>
+<td>dedicated battery reserve maintains power if primary fails</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can handle very bumpy roads</td>
+<td style="text-align: left;">vibration isolation</td>
+<td>mounts isolate high-frequency vibrations from payload</td>
+</tr>
+<tr>
+<td style="text-align: left;">The aesthetic quality holds up well over long-term use</td>
+<td style="text-align: left;">scratch-resistant coating</td>
+<td>prevents scratches and visible surface wear</td>
+</tr>
+<tr>
+<td style="text-align: left;">The aesthetic quality holds up well over long-term use</td>
+<td style="text-align: left;">chemical-resistant coating</td>
+<td>protects surface from spills and cleaning chemicals</td>
+</tr>
+<tr>
+<td style="text-align: left;">The aesthetic quality holds up well over long-term use</td>
+<td style="text-align: left;">rounded, organic edges</td>
+<td>reduces visible impact damage while giving a modern look</td>
+</tr>
+<tr>
+<td style="text-align: left;">The aesthetic quality holds up well over long-term use</td>
+<td style="text-align: left;">modular tabletop panels</td>
+<td>allows tabletop to be removed, replaced, or customized</td>
+</tr>
+<tr>
+<td style="text-align: left;">The aesthetic quality holds up well over long-term use</td>
+<td style="text-align: left;">interchangeable functional tabletop</td>
+<td>allows swapping for specialized surfaces like silicone mats</td>
+</tr>
+<tr>
+<td style="text-align: left;">The aesthetic quality holds up well over long-term use</td>
+<td style="text-align: left;">hidden fasteners</td>
+<td>conceals screws to create a cleaner, wear-resistant look</td>
+</tr>
+<tr>
+<td style="text-align: left;">The aesthetic quality holds up well over long-term use</td>
+<td style="text-align: left;">transparent maintenance panel</td>
+<td>clear underside section showcases internal robotics</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can be used by many ages</td>
+<td style="text-align: left;">single-button operation</td>
+<td>single primary button allows simple one-touch activation</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can be used by many ages</td>
+<td style="text-align: left;">pinch protection</td>
+<td>sensors prevent moving legs from pinching fingers</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can be used by many ages</td>
+<td style="text-align: left;">intuitive controls</td>
+<td>simple symbols and clear feedback eliminate user confusion</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can be used by many ages</td>
+<td style="text-align: left;">voice control</td>
+<td>voice commands allow hands-free operation for all users</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can be used by many ages</td>
+<td style="text-align: left;">manual override</td>
+<td>allows physical repositioning if power is unavailable</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can be used by many ages</td>
+<td style="text-align: left;">automatic height adjustment</td>
+<td>adapts height to accommodate different users or seating</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can be used by many ages</td>
+<td style="text-align: left;">mechanical backup system</td>
+<td>mechanical lock holds position if electrical power drops</td>
+</tr>
+<tr>
+<td style="text-align: left;">The product can be used by many ages</td>
+<td style="text-align: left;">terrain-learning software</td>
+<td>remembers frequent surfaces to improve stabilization response</td>
+</tr>
+<tr>
+<td style="text-align: left;">Hydraulic self-leveling feet remain completely sealed without leaking fluid</td>
+<td style="text-align: left;">dry mechanical lead-screws</td>
+<td>uses gear drives to eliminate liquid hydraulic fluids</td>
+</tr>
+<tr>
+<td style="text-align: left;">Hydraulic self-leveling feet remain completely sealed without leaking fluid</td>
+<td style="text-align: left;">double o-ring shaft seals</td>
+<td>prevents internal fluid escape under heavy loads</td>
+</tr>
+<tr>
+<td style="text-align: left;">Hydraulic self-leveling feet remain completely sealed without leaking fluid</td>
+<td style="text-align: left;">magnetic coupling drives</td>
+<td>transfers motor power through sealed wall without penetrations</td>
+</tr>
+<tr>
+<td style="text-align: left;">Hydraulic self-leveling feet remain completely sealed without leaking fluid</td>
+<td style="text-align: left;">self-lubricating polymer bushings</td>
+<td>operates smoothly without needing liquid grease or oil</td>
+</tr>
+<tr>
+<td style="text-align: left;">Hydraulic self-leveling feet remain completely sealed without leaking fluid</td>
+<td style="text-align: left;">bellows dust boots</td>
+<td>seals moving joints from external dust and fluid degradation</td>
+</tr>
+<tr>
+<td style="text-align: left;">Prevents scratching or marring delicate floor surfaces</td>
+<td style="text-align: left;">non-marking polyurethane caps</td>
+<td>soft foot pads protect hardwood and tile surfaces</td>
+</tr>
+<tr>
+<td style="text-align: left;">Prevents scratching or marring delicate floor surfaces</td>
+<td style="text-align: left;">felt glide pads</td>
+<td>smooth felt bottom prevents scuffing during table movement</td>
+</tr>
+<tr>
+<td style="text-align: left;">Prevents scratching or marring delicate floor surfaces</td>
+<td style="text-align: left;">recessed rubber pad inserts</td>
+<td>keeps metal base from touching floor directly</td>
+</tr>
+<tr>
+<td style="text-align: left;">Prevents scratching or marring delicate floor surfaces</td>
+<td style="text-align: left;">nylon swivel glides</td>
+<td>low-friction plastic pads slide smoothly across floors</td>
+</tr>
+<tr>
+<td style="text-align: left;">Prevents scratching or marring delicate floor surfaces</td>
+<td style="text-align: left;">protective silicone boots</td>
+<td>encases foot pads in soft rubber to safeguard floors</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product includes all required accessories in the package</td>
+<td style="text-align: left;">all-in-one accessory bundle</td>
+<td>includes all core tools and mounts out of the box</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product includes all required accessories in the package</td>
+<td style="text-align: left;">integrated focus motor mount</td>
+<td>includes dedicated bracket for auxiliary motor drive</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product includes all required accessories in the package</td>
+<td style="text-align: left;">wireless transmitter dock</td>
+<td>built-in receiver bay holds video transmitter gear</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product includes all required accessories in the package</td>
+<td style="text-align: left;">standardized charging cable</td>
+<td>includes dedicated wall adapter and fast-charge cable</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product includes all required accessories in the package</td>
+<td style="text-align: left;">hard-shell storage case</td>
+<td>custom foam case protects all accessories during transport</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product allows rapid, effortless balancing of mounted payloads</td>
+<td style="text-align: left;">fine-tuning adjustment knobs</td>
+<td>lead-screws allow precise micro-millimeter positioning</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product allows rapid, effortless balancing of mounted payloads</td>
+<td style="text-align: left;">quick-release mounting plate</td>
+<td>lever mechanism allows instant payload detachment</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product allows rapid, effortless balancing of mounted payloads</td>
+<td style="text-align: left;">teflon-coated guide rails</td>
+<td>smooth rails reduce friction during slide balancing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product allows rapid, effortless balancing of mounted payloads</td>
+<td style="text-align: left;">axis position memory marks</td>
+<td>laser-engraved rulers help restore balance settings fast</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product allows rapid, effortless balancing of mounted payloads</td>
+<td style="text-align: left;">automated motor calibration</td>
+<td>auto-tunes motor power to match attached payload inertia</td>
+</tr>
+<tr>
+<td style="text-align: left;">Device provides dedicated physical controls for rapid mode switching</td>
+<td style="text-align: left;">3-stage hardware slider switch</td>
+<td>physical switch toggles between Pan, Lock, and Follow modes</td>
+</tr>
+<tr>
+<td style="text-align: left;">Device provides dedicated physical controls for rapid mode switching</td>
+<td style="text-align: left;">customizable trigger button</td>
+<td>index-finger trigger re-centers or speeds up response</td>
+</tr>
+<tr>
+<td style="text-align: left;">Device provides dedicated physical controls for rapid mode switching</td>
+<td style="text-align: left;">front dial controller</td>
+<td>assignable rotary wheel changes focus or motor speeds</td>
+</tr>
+<tr>
+<td style="text-align: left;">Device provides dedicated physical controls for rapid mode switching</td>
+<td style="text-align: left;">touchscreen shortcut menu</td>
+<td>swipeable panel provides 1-tap access to frequent modes</td>
+</tr>
+<tr>
+<td style="text-align: left;">Device provides dedicated physical controls for rapid mode switching</td>
+<td style="text-align: left;">haptic feedback motor</td>
+<td>vibrates base to confirm mode toggles without visual checks</td>
+</tr>
+<tr>
+<td style="text-align: left;">System automatically secures moving joints during transport</td>
+<td style="text-align: left;">motorized automated axis locks</td>
+<td>locks freeze axes automatically when powered off</td>
+</tr>
+<tr>
+<td style="text-align: left;">System automatically secures moving joints during transport</td>
+<td style="text-align: left;">mechanical latch pins</td>
+<td>spring pins keep folding legs firmly locked during carry</td>
+</tr>
+<tr>
+<td style="text-align: left;">System automatically secures moving joints during transport</td>
+<td style="text-align: left;">soft rubber bump stops</td>
+<td>cushions contact points between folded mechanical arms</td>
+</tr>
+<tr>
+<td style="text-align: left;">System automatically secures moving joints during transport</td>
+<td style="text-align: left;">magnetic arm retention</td>
+<td>magnets hold folded components flush against the frame</td>
+</tr>
+<tr>
+<td style="text-align: left;">System automatically secures moving joints during transport</td>
+<td style="text-align: left;">travel-lock toggle lever</td>
+<td>single lever locks all rotating joints for transport</td>
+</tr>
+<tr>
+<td style="text-align: left;">System automatically secures moving joints during transport</td>
+<td style="text-align: left;">spring-loaded latching pin</td>
+<td>secures telescoping joints automatically when fully collapsed</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-three">Step Three</h2>
+<p>Thematic Grouping, Ranking, and Feature Rationale</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Theme / Category</th>
+<th style="text-align: left;">Top Ranked Feature</th>
+<th style="text-align: center;">Value (1-5)</th>
+<th style="text-align: center;">Feasibility (1-5)</th>
+<th style="text-align: center;">Score</th>
+<th style="text-align: left;">Rationale for Top Selection</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Theme 1: Core Mechanical Stability</td>
+<td style="text-align: left;">Dry Mechanical Lead-Screws</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: left;">Eliminates fluid leak risks on delicate floors entirely while providing highest static load support</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 1: Core Mechanical Stability</td>
+<td style="text-align: left;">Independent Leveling Legs</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: left;">Directly compensates for uneven ground variations without creating structural torsion across frame</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 1: Core Mechanical Stability</td>
+<td style="text-align: left;">Shock Absorbers &amp; Dampers</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: left;">Passively dissipates sharp impact energy before it triggers unnecessary active motor corrections</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 2: Sensing &amp; Control Systems</td>
+<td style="text-align: left;">Accelerometer + Pressure Sensor Fusion</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;">Prevents system hunting by distinguishing between side load placement and dynamic ground vibration</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 2: Sensing &amp; Control Systems</td>
+<td style="text-align: left;">Predictive Stabilization</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;">Actuates leg motors upon detecting tilt acceleration before actual physical tipping occurs</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 2: Sensing &amp; Control Systems</td>
+<td style="text-align: left;">Closed-Loop PID Controller</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;">Continuously calculates positional error to drive actuators smoothly to precise zero-plane horizon</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 3: User Interface &amp; Safety</td>
+<td style="text-align: left;">Optical Pinch Protection</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: left;">Critical safety mechanism that instantly halts leg actuation if fingers or objects enter joints</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 3: User Interface &amp; Safety</td>
+<td style="text-align: left;">3-Stage Hardware Slider Switch</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;">Offers immediate, zero-latency physical state switching (Auto / Lock / Off) without menu navigation</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 3: User Interface &amp; Safety</td>
+<td style="text-align: left;">Single-Button Primary Activation</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;">Ensures low technical barrier to entry for everyday users to zero and initialize table base</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 4: Surface Protection &amp; Aesthetics</td>
+<td style="text-align: left;">Non-Marking Polyurethane Caps</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: left;">Provides maximum friction coefficient on polished surfaces without leaving visible scuff marks</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 4: Surface Protection &amp; Aesthetics</td>
+<td style="text-align: left;">Hidden Fasteners</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;">Delivers clean aesthetic visual profile while shielding connection hardware from dust and liquid spills</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 4: Surface Protection &amp; Aesthetics</td>
+<td style="text-align: left;">Scratch &amp; Chemical Coating</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: left;">Ensures long-term visual durability under harsh cleaning protocols and repeated outdoor use</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 5: Transport, Storage &amp; Modularity</td>
+<td style="text-align: left;">Motorized Automated Axis Locks</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: left;">Freezes moving linkages automatically on power-off to isolate motor gears from transit impact loads</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 5: Transport, Storage &amp; Modularity</td>
+<td style="text-align: left;">Quick-Release Mounting Plate</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;">Enables rapid toolless separation of tabletop surface from support column for transport</td>
+</tr>
+<tr>
+<td style="text-align: left;">Theme 5: Transport, Storage &amp; Modularity</td>
+<td style="text-align: left;">Travel-Lock Toggle Lever</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;">Mechanically locks folded leg assemblies flush against central column with single motion</td>
+</tr>
+</tbody>
+</table>
+<p>Product Concepts</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Subsystem / Feature Category</th>
+<th style="text-align: left;">Concept 1: Tripod Retractable Base</th>
+<th style="text-align: left;">Concept 2: Heavy-Duty Hydraulic Table</th>
+<th style="text-align: left;">Concept 3: Portable Emergency Response Table</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Primary Design Philosophy</td>
+<td style="text-align: left;">Minimalist 3-point geometry offering fast self-leveling on uneven surfaces with fully retractable legs for space-saving storage</td>
+<td style="text-align: left;">Maximum payload capacity and industrial durability using high-force hydraulic actuators for dynamic commercial environments</td>
+<td style="text-align: left;">Rapid field deployment, extreme weather/terrain resilience, and easy sanitization for crisis medical and tactical operations</td>
+</tr>
+<tr>
+<td style="text-align: left;">Frame &amp; Base Geometry</td>
+<td style="text-align: left;">3-leg tripod arrangement with square-post telescoping shafts and ball pivot joints on all leg ends</td>
+<td style="text-align: left;">Thick-walled reinforced steel frame with wide gusseted base plate and structural support beams</td>
+<td style="text-align: left;">High-strength folding aluminum/carbon-fiber chassis with quick-deploy scissor linkages</td>
+</tr>
+<tr>
+<td style="text-align: left;">Drive &amp; Leveling Actuation</td>
+<td style="text-align: left;">Micro-planetary gearmotors driving dry mechanical lead-screws inside retractable leg housings</td>
+<td style="text-align: left;">Sealed fluid-driven hydraulic piston actuators powered by a compact high-pressure electric pump</td>
+<td style="text-align: left;">High-speed electric linear actuators with independent spring-loaded telescoping leg extensions</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sensing &amp; Control Systems</td>
+<td style="text-align: left;">High-sensitivity orientation sensors calculating 3-point geometric plane zeroing</td>
+<td style="text-align: left;">Pressure sensor + accelerometer fusion driving closed-loop hydraulic PID metering valves</td>
+<td style="text-align: left;">Predictive stabilization software with terrain-learning auto-zeroing algorithms</td>
+</tr>
+<tr>
+<td style="text-align: left;">User Interface &amp; Controls</td>
+<td style="text-align: left;">Single-button primary zeroing switch with manual twist-lock override dials</td>
+<td style="text-align: left;">3-stage hardware slider switch with integrated maintenance alert diagnostic LEDs</td>
+<td style="text-align: left;">Sealed high-contrast touchscreen shortcut menu with tactile physical override trigger button</td>
+</tr>
+<tr>
+<td style="text-align: left;">Safety &amp; Surface Protection</td>
+<td style="text-align: left;">Ball-joint feet with non-marking polyurethane caps and optical leg pinch protection sensors</td>
+<td style="text-align: left;">Double O-ring shaft seals, bellows dust boots, and heavy recessed rubber shock-absorbing pads</td>
+<td style="text-align: left;">High-friction rubber feet with chemical-resistant antimicrobial protective coating</td>
+</tr>
+<tr>
+<td style="text-align: left;">Transport &amp; Storage Locks</td>
+<td style="text-align: left;">Retractable leg assemblies that collapse flush into central column with single travel-lock toggle</td>
+<td style="text-align: left;">Motorized automated axis locks with heavy steel mechanical latch pins</td>
+<td style="text-align: left;">Custom hard-shell storage case with quick-release mounting plate and magnetic arm retention</td>
+</tr>
+<tr>
+<td style="text-align: left;">Selected Hybrid Innovation</td>
+<td style="text-align: left;">Tri-Axis Gyro-Damped Swivel Foot</td>
+<td style="text-align: left;">Self-Sealing Magnetic Quick-Dock</td>
+<td style="text-align: left;">Smart LED Safety Edge Ring (for low-light night field ops)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-four">Step Four</h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/DI_1.png" data-desc-position="bottom"><img alt="ID_1" src="../image/DI_1.png"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/DI_2.png" data-desc-position="bottom"><img alt="ID_2" src="../image/DI_2.png"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/DI_3.png" data-desc-position="bottom"><img alt="ID_3" src="../image/DI_3.png"></a></p>
+<h2 id="step-5">Step 5</h2>
+<h4 id="team-design-ideation">Team Design Ideation</h4>
+<p>In our brainstorming session, each of us made sure that we were open to all ideas, opinions, and perspectives to make sure that all possible solutions would be acknowledged. The participants of the brainstorming consisted of Joseph Nunez, Caden Laughlin, and Emma Cumiford. We met in a Discord call using a Canva document to separate user needs, features, and their correlating groupings in a visual manner using sticky notes. This approach was beneficial as our team could, in real time, identify which user needs fit a logical grouping and find which ones connected the best, forming possible features. Each of us would say an idea out loud and the others would share their opinion and possible details regarding the feature’s relevance to the user’s need. This would keep ideas fresh while allowing us to build from each other’s ideas.</p>
+<p>We took information from the user’s needs and benchmarking assignment and the team organization assignment as we had to evaluate the audience and target goal that our product would need to meet. In conducting the user needs and benchmarking assignment, we found that the target audience online was more drawn towards the restaurant, film, health, military, and marine industries when it came to self-stabilizing tables or platforms. These discoveries allowed us to further refine our ideation process and develop the classes of features into more distinct categories. </p>
+<p>To generate ideas, we used the internet and the articles provided so that we could follow a structured brainstorming approach. Using the internet, our team was able to find different perspectives on the products that we had researched during the user needs and benchmarking assignment, gaining perspective into possible solutions that others needed. Furthermore, we used the internet to see features implemented into similar products that we could possibly incorporate in our own way by comparing them with our own ideas.</p>
+<p>Features were partitioned into the groups of Service, Appearance, Performance, Assembly, Control, and Rigidity. These groups were chosen because they appeared the most in user feedback on the product adjacent to our project. Users constantly leave reviews on these topics, either complimenting or complaining about shipping times, ease of assembly, durability, or user input. Since these were the most common, we believed that they deserved their own categories for the brainstorming process. By grouping them into these categories, we were, more effectively, able to compare ideas with each other and create possible features into a product.</p>
+<p>Ideas were ranked based on the audience we were targeting, the prevalence of a complaint or need vocalized by customers, and the feasibility of being able to accomplish each feature. Finally, we synthesized possible aligning features together to form products that could achieve the main goal of a self-stabilizing table.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../04-Product-Requirements/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Product Requirements">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Product Requirements
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../06-team-block-diagram/" class="md-footer__link md-footer__link--next" aria-label="Next: Team Block Diagram">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Team Block Diagram
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2025 team-name-here
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="/2025_fall" target="_blank" rel="noopener" title="2023 Site" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M64 48h112v88c0 39.8 32.2 72 72 72h88v240c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16m160 19.9 92.1 92.1H248c-13.3 0-24-10.7-24-24zM64 0C28.7 0 0 28.7 0 64v384c0 35.3 28.7 64 64 64h256c35.3 0 64-28.7 64-64V186.5c0-17-6.7-33.3-18.7-45.3L242.7 18.7C230.7 6.7 214.5 0 197.5 0zm106.2 295.6c8.6-10.1 7.5-25.2-2.6-33.8s-25.2-7.5-33.8 2.6l-48 56c-7.7 9-7.7 22.2 0 31.2l48 56c8.6 10.1 23.8 11.2 33.8 2.6s11.2-23.8 2.6-33.8L135.6 336zm80-31.2c-8.6-10.1-23.8-11.2-33.8-2.6s-11.2 23.8-2.6 33.8l34.6 40.4-34.6 40.4c-8.6 10.1-7.5 25.2 2.6 33.8s25.2 7.5 33.8-2.6l48-56c7.7-9 7.7-22.2 0-31.2z"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.follow", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "content.action.edit", "navigation.footer"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
