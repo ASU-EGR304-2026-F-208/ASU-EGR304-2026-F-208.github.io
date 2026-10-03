@@ -8,6 +8,9 @@ title: Team Block Diagram
 _Italic Text_
 **_Bold and Italic Text_**
 
+## Team Block Diagram, Process Diagram, and Message Structure
+[Team_Block_Diagram](https://app.diagrams.net/#G1Mv4OLmAqWyhrVXr4TWVB89evNlQIgr9X#%7B%22pageId%22%3A%22DuODgdJueQHADXTg6JkB%22%7D)
+![Block_Diagram_Image](image/block_diagram_208.png)
 ## Research Question
 
 * Bullet Point 1
