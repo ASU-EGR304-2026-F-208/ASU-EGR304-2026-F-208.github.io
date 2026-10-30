@@ -140,8 +140,8 @@ title: User Needs and Benchmarking
 
 ### Selected Products
 
-#### 2. [Segway Ninebot S2 Electric Self-Balancing Scooter] (https://store.segway.com/ninebot-s2?utm_source=google&utm_medium=pmax&utm_campaignid=17209955658&gad_source=4&gad_campaignid=17209975344&gbraid=0AAAAABqJF-1azKaMePy4NnRchV_iiGukW&gclid=CjwKCAjw2aPVBhBkEiwA0Cpttzp5xPkTFKvNrSdHg1Uy881yemSkkta5xv2sHPHzIrEaxVeqwS0LnxoCnhYQAvD_BwE)
-![Table](image/segway.avif)
+#### 2. [Segway Ninebot S2 Electric Self-Balancing Scooter](https://store.segway.com/ninebot-s2?utm_source=google&utm_medium=pmax&utm_campaignid=17209955658&gad_source=4&gad_campaignid=17209975344&gbraid=0AAAAABqJF-1azKaMePy4NnRchV_iiGukW&gclid=CjwKCAjw2aPVBhBkEiwA0Cpttzp5xPkTFKvNrSdHg1Uy881yemSkkta5xv2sHPHzIrEaxVeqwS0LnxoCnhYQAvD_BwE)
+![Table](image/s2_-1_2.png)
 
 * Price: $649.99
 
