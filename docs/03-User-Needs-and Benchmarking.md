@@ -223,13 +223,137 @@ title: User Needs and Benchmarking
 
 ### First Placement
 
+![org 1.1 Organization](image/image11.png)
+
+![org1.2 Organization](image/image12.png)
+
+![org 1.3Organization](image/image13.png)
+
 ### Grouped with categories
+
+Service Group
+![Service Organization](image/service.png)
+
+Rigidity Group
+![Rigidity Organization](image/rigidity.png)
+
+Perform Group
+![Performative Organization](perform.png)
+
+Control Group
+![Control Organization](image/control.png)
+
+Assembly Group
+![Assembly Organization](image/assembly.png)
+
+Appearance Group
+![Appearence Organization](image/appearance.png)
+
 
 ### Ranked
 
-## Compiled list of user Needs
+Needs statements are based on feasibility and value, including core structural stability impact, mechanical manufacturability, and direct alignment with verified customer requirements across benchmarked products. 
 
-1. The device will...
-1. The device is ...
-1. The device can ...
-100. The device is...
+
+| Rank | Requirement / Need | Feature | Detail | Value (1-5) | Feasibility (1-5) | Score | Priority Tier |
+| :---: | :----------------------------------- | :----- | :--------------------------------------------------------------------------- | :---: | :---: | :---: | :---: |
+| 1 | Maintains a level horizon through dynamic movements | dampers | prevent sudden motions | 5 | 5 | 25 | High (Select) |
+| 2 | Product provides a sturdy foundation | bolts | bolt down base to keep stationary | 5 | 5 | 25 | High (Select) |
+| 3 | Product provides a sturdy foundation | wide base | weight is distributed over a larger area | 5 | 5 | 25 | High (Select) |
+| 4 | Product provides a sturdy foundation | rubber feet | increases grip with the surface beneath | 5 | 5 | 25 | High (Select) |
+| 5 | Maintains stability under frequent use | bearings | reduces friction between joints | 5 | 5 | 25 | High (Select) |
+| 6 | Maintains stability under frequent use | shock absorbers | reduce wear from force applied to structure | 5 | 5 | 25 | High (Select) |
+| 7 | Maintains stability under frequent use | locking fasteners | prevents screws and connections from coming loose over time | 5 | 5 | 25 | High (Select) |
+| 8 | Product is durable | steel frame | strong material to support the product | 5 | 5 | 25 | High (Select) |
+| 9 | The product provides a lot of stability | high-friction rubber feet | increases grip on smooth surfaces to prevent sliding | 5 | 5 | 25 | High (Select) |
+| 10 | The product provides a lot of stability | independent leveling | each leg adjusts independently to compensate for terrain | 5 | 5 | 25 | High (Select) |
+| 11 | The product can handle very bumpy roads | shock absorbers | reduces large impacts between tabletop and chassis | 5 | 5 | 25 | High (Select) |
+| 12 | The product can be used by many ages | pinch protection | sensors prevent moving legs from pinching fingers | 5 | 5 | 25 | High (Select) |
+| 13 | Hydraulic self-leveling feet remain completely sealed without leaking fluid | dry mechanical lead-screws | uses gear drives to eliminate liquid hydraulic fluids | 5 | 5 | 25 | High (Select) |
+| 14 | Prevents scratching or marring delicate floor surfaces | non-marking polyurethane caps | soft foot pads protect hardwood and tile surfaces | 5 | 5 | 25 | High (Select) |
+| 15 | Maintains a level horizon through dynamic movements | springs | dampen oscillations from vibrations, keeping surface level | 4 | 5 | 20 | High (Select) |
+| 16 | Maintains a level horizon through dynamic movements | padding | absorb vibrations through padded material | 4 | 5 | 20 | High (Select) |
+| 17 | Maintains a level horizon through dynamic movements | adjustable legs | legs adjust according to reaction | 4 | 5 | 20 | High (Select) |
+| 18 | Product provides a sturdy foundation | braces | reinforced base to reduce bending | 4 | 5 | 20 | High (Select) |
+| 19 | Product provides a sturdy foundation | heavy weight | harder to move with greater weight | 4 | 5 | 20 | High (Select) |
+| 20 | Maintains stability under frequent use | washers | distributes force around fasteners | 4 | 5 | 20 | High (Select) |
+| 21 | Maintains stability under frequent use | lubrication | reduces friction of moving parts | 4 | 5 | 20 | High (Select) |
+| 22 | Product is durable | metal gears | withstand repeated motor movement | 4 | 5 | 20 | High (Select) |
+| 23 | Product is durable | enclosure | protects internal electronics/structure from outside factors | 4 | 5 | 20 | High (Select) |
+| 24 | Product is durable | support beams | support the structure of the product, providing stronger base | 4 | 5 | 20 | High (Select) |
+| 25 | Table base has a professional/sleek appearance | wire covers | hides exposed wiring | 4 | 5 | 20 | High (Select) |
+| 26 | Table base has a professional/sleek appearance | rounded corners | finished look without sharp edges | 4 | 5 | 20 | High (Select) |
+| 27 | Prevents scratching or marring delicate floor surfaces | felt glide pads | smooth felt bottom prevents scuffing during table movement | 4 | 5 | 20 | High (Select) |
+| 28 | Prevents scratching or marring delicate floor surfaces | recessed rubber pad inserts | keeps metal base from touching floor directly | 4 | 5 | 20 | High (Select) |
+| 29 | System automatically secures moving joints during transport | mechanical latch pins | spring pins keep folding legs firmly locked during carry | 4 | 5 | 20 | High (Select) |
+| 30 | System automatically secures moving joints during transport | travel-lock toggle lever | single lever locks all rotating joints for transport | 4 | 5 | 20 | High (Select) |
+| 31 | The product can be used by many ages | single-button operation | single primary button allows simple one-touch activation | 4 | 5 | 20 | High (Select) |
+| 32 | Product allows rapid, effortless balancing of mounted payloads | fine-tuning adjustment knobs | lead-screws allow precise micro-millimeter positioning | 4 | 5 | 20 | High (Select) |
+| 33 | Maintains a level horizon through dynamic movements | gimbal | correct vibration | 5 | 4 | 20 | High (Select) |
+| 34 | The product remains stable when weight is placed on one side | pressure sensor | detects difference of weight on the surface | 5 | 4 | 20 | High (Select) |
+| 35 | The product remains stable when weight is placed on one side | accelerometer | measure how fast the surface is accelerating | 5 | 4 | 20 | High (Select) |
+| 36 | The product remains stable when weight is placed on one side | pivot joint | surface is able to correct changes in orientation | 5 | 4 | 20 | Medium (Consider) |
+| 37 | The product requires minimal user input to maintain stability | motor control | motors actuate response | 5 | 4 | 20 | Medium (Consider) |
+| 38 | The product requires minimal user input to maintain stability | control system | automatic leveling control system for level surface | 5 | 4 | 20 | Medium (Consider) |
+| 39 | The product provides a lot of stability | capstan joint | provides strong, controlled movement for precise adjustments | 5 | 4 | 20 | Medium (Consider) |
+| 40 | The product provides a lot of stability | high-sensitivity sensors | detects small changes in orientation to correct quickly | 5 | 4 | 20 | Medium (Consider) |
+| 41 | The product can handle very bumpy roads | predictive stabilization | detects movement changes to adjust before tipping happens | 5 | 4 | 20 | Medium (Consider) |
+| 42 | Hydraulic self-leveling feet remain completely sealed without leaking fluid | double o-ring shaft seals | prevents internal fluid escape under heavy loads | 5 | 4 | 20 | Medium (Consider) |
+| 43 | Product allows rapid, effortless balancing of mounted payloads | quick-release mounting plate | lever mechanism allows instant payload detachment | 5 | 4 | 20 | Medium (Consider) |
+| 44 | Device provides dedicated physical controls for rapid mode switching | 3-stage hardware slider switch | physical switch toggles between Pan, Lock, and Follow modes | 5 | 4 | 20 | Medium (Consider) |
+| 45 | Product is durable | fuse | reduces likelihood of electrical failure | 3 | 5 | 15 | Medium (Consider) |
+| 46 | Table base has a professional/sleek appearance | motor covers | conceals mechanical components | 3 | 5 | 15 | Medium (Consider) |
+| 47 | Table base has a professional/sleek appearance | finished paint | solid color provides aesthetic | 3 | 5 | 15 | Medium (Consider) |
+| 48 | Product maintains stability and performance over time | spare parts included | comes with commonly needed replacement parts | 3 | 5 | 15 | Medium (Consider) |
+| 49 | The aesthetic quality holds up well over long-term use | rounded, organic edges | reduces visible impact damage while giving a modern look | 3 | 5 | 15 | Medium (Consider) |
+| 50 | The aesthetic quality holds up well over long-term use | hidden fasteners | conceals screws to create a cleaner, wear-resistant look | 3 | 5 | 15 | Medium (Consider) |
+| 51 | Prevents scratching or marring delicate floor surfaces | nylon swivel glides | low-friction plastic pads slide smoothly across floors | 3 | 5 | 15 | Medium (Consider) |
+| 52 | Product includes all required accessories in the package | all-in-one accessory bundle | includes all core tools and mounts out of the box | 3 | 5 | 15 | Medium (Consider) |
+| 53 | Product includes all required accessories in the package | standardized charging cable | includes dedicated wall adapter and fast-charge cable | 3 | 5 | 15 | Medium (Consider) |
+| 54 | System automatically secures moving joints during transport | soft rubber bump stops | cushions contact points between folded mechanical arms | 3 | 5 | 15 | Medium (Consider) |
+| 55 | System automatically secures moving joints during transport | spring-loaded latching pin | secures telescoping joints automatically when fully collapsed | 3 | 5 | 15 | Medium (Consider) |
+| 56 | Table base has a professional/sleek appearance | indicator LEDs | displays technological detail | 4 | 4 | 16 | Medium (Consider) |
+| 57 | Product maintains stability and performance over time | maintenance alerts | warns the user when components need inspection or service | 4 | 4 | 16 | Medium (Consider) |
+| 58 | Product maintains stability and performance over time | high-quality hydraulic components | durable hydraulics reduce wear and maintain performance | 4 | 4 | 16 | Medium (Consider) |
+| 59 | Product maintains stability and performance over time | responsive customer service | provides direct support for troubleshooting and repairs | 4 | 4 | 16 | Medium (Consider) |
+| 60 | The product provides a lot of stability | wide, low-profile base | lowers the center of gravity to resist tipping | 4 | 4 | 16 | Medium (Consider) |
+| 61 | The product provides a lot of stability | ball-joint feet | conforms to uneven surfaces while maintaining contact | 4 | 4 | 16 | Medium (Consider) |
+| 62 | The product provides a lot of stability | magnetic locking system | secures legs or wheels once desired position is reached | 4 | 4 | 16 | Medium (Consider) |
+| 63 | The product can handle very bumpy roads | suspension in each leg | absorbs shocks and reduces vibrations transferred to top | 4 | 4 | 16 | Medium (Consider) |
+| 64 | The product can handle very bumpy roads | spring-loaded telescoping legs | provides vertical movement to absorb sudden terrain changes | 4 | 4 | 16 | Medium (Consider) |
+| 65 | The product can handle very bumpy roads | vibration isolation | mounts isolate high-frequency vibrations from payload | 4 | 4 | 16 | Medium (Consider) |
+| 66 | The aesthetic quality holds up well over long-term use | scratch-resistant coating | prevents scratches and visible surface wear | 4 | 4 | 16 | Medium (Consider) |
+| 67 | The aesthetic quality holds up well over long-term use | chemical-resistant coating | protects surface from spills and cleaning chemicals | 4 | 4 | 16 | Medium (Consider) |
+| 68 | The product can be used by many ages | intuitive controls | simple symbols and clear feedback eliminate user confusion | 4 | 4 | 16 | Medium (Consider) |
+| 69 | The product can be used by many ages | manual override | allows physical repositioning if power is unavailable | 4 | 4 | 16 | Medium (Consider) |
+| 70 | The product can be used by many ages | automatic height adjustment | adapts height to accommodate different users or seating | 4 | 4 | 16 | Medium (Consider) |
+| 71 | The product can be used by many ages | mechanical backup system | mechanical lock holds position if electrical power drops | 4 | 4 | 16 | Low (Screen Out) |
+| 72 | Hydraulic self-leveling feet remain completely sealed without leaking fluid | self-lubricating polymer bushings | operates smoothly without needing liquid grease or oil | 4 | 4 | 16 | Low (Screen Out) |
+| 73 | Hydraulic self-leveling feet remain completely sealed without leaking fluid | bellows dust boots | seals moving joints from external dust and fluid degradation | 4 | 4 | 16 | Low (Screen Out) |
+| 74 | Prevents scratching or marring delicate floor surfaces | protective silicone boots | encases foot pads in soft rubber to safeguard floors | 4 | 4 | 16 | Low (Screen Out) |
+| 75 | Product includes all required accessories in the package | integrated focus motor mount | includes dedicated bracket for auxiliary motor drive | 4 | 4 | 16 | Low (Screen Out) |
+| 76 | Product includes all required accessories in the package | wireless transmitter dock | built-in receiver bay holds video transmitter gear | 4 | 4 | 16 | Low (Screen Out) |
+| 77 | Product includes all required accessories in the package | hard-shell storage case | custom foam case protects all accessories during transport | 4 | 4 | 16 | Low (Screen Out) |
+| 78 | Product allows rapid, effortless balancing of mounted payloads | teflon-coated guide rails | smooth rails reduce friction during slide balancing | 4 | 4 | 16 | Low (Screen Out) |
+| 79 | Product allows rapid, effortless balancing of mounted payloads | axis position memory marks | laser-engraved rulers help restore balance settings fast | 4 | 4 | 16 | Low (Screen Out) |
+| 80 | Product allows rapid, effortless balancing of mounted payloads | automated motor calibration | auto-tunes motor power to match attached payload inertia | 4 | 4 | 16 | Low (Screen Out) |
+| 81 | Device provides dedicated physical controls for rapid mode switching | customizable trigger button | index-finger trigger re-centers or speeds up response | 4 | 4 | 16 | Low (Screen Out) |
+| 82 | Device provides dedicated physical controls for rapid mode switching | front dial controller | assignable rotary wheel changes focus or motor speeds | 4 | 4 | 16 | Low (Screen Out) |
+| 83 | System automatically secures moving joints during transport | motorized automated axis locks | locks freeze axes automatically when powered off | 4 | 4 | 16 | Low (Screen Out) |
+| 84 | System automatically secures moving joints during transport | magnetic arm retention | magnets hold folded components flush against the frame | 4 | 4 | 16 | Low (Screen Out) |
+| 85 | The product requires minimal user input to maintain stability | bluetooth | wireless control from another device | 3 | 3 | 9 | Low (Screen Out) |
+| 86 | The product requires minimal user input to maintain stability | distance sensor | sense changes of distance from the ground | 3 | 3 | 9 | Low (Screen Out) |
+| 87 | The product requires minimal user input to maintain stability | screen | user can input configuration through an accessible interface | 3 | 3 | 9 | Low (Screen Out) |
+| 88 | Product maintains stability and performance over time | adaptive learning system | learns movements to reduce unnecessary mechanical stress | 3 | 3 | 9 | Low (Screen Out) |
+| 89 | The product can be used by many ages | voice control | voice commands allow hands-free operation for all users | 3 | 3 | 9 | Low (Screen Out) |
+| 90 | The product can be used by many ages | terrain-learning software | remembers frequent surfaces to improve stabilization response | 3 | 3 | 9 | Low (Screen Out) |
+| 91 | Hydraulic self-leveling feet remain completely sealed without leaking fluid | magnetic coupling drives | transfers motor power through sealed wall without penetrations | 3 | 3 | 9 | Low (Screen Out) |
+| 92 | Device provides dedicated physical controls for rapid mode switching | touchscreen shortcut menu | swipeable panel provides 1-tap access to frequent modes | 3 | 3 | 9 | Low (Screen Out) |
+| 93 | Device provides dedicated physical controls for rapid mode switching | haptic feedback motor | vibrates base to confirm mode toggles without visual checks | 3 | 3 | 9 | Low (Screen Out) |
+| 94 | The product remains stable when weight is placed on one side | counterweight | weight is shifted depending on the difference of force | 3 | 2 | 6 | Low (Screen Out) |
+| 95 | The product remains stable when weight is placed on one side | pulley | counteracts weight by redistributing force | 3 | 2 | 6 | Low (Screen Out) |
+| 96 | The product can handle very bumpy roads | emergency stabilization mode | lowers table closer to ground when severe instability occurs | 3 | 2 | 6 | Low (Screen Out) |
+| 97 | The product can handle very bumpy roads | battery stabilization reserve | dedicated battery reserve maintains power if primary fails | 3 | 2 | 6 | Low (Screen Out) |
+| 98 | The aesthetic quality holds up well over long-term use | modular tabletop panels | allows tabletop to be removed, replaced, or customized | 3 | 2 | 6 | Low (Screen Out) |
+| 99 | The aesthetic quality holds up well over long-term use | interchangeable functional tabletop | allows swapping for specialized surfaces like silicone mats | 3 | 2 | 6 | Low (Screen Out) |
+| 100 | The aesthetic quality holds up well over long-term use | transparent maintenance panel | clear underside section showcases internal robotics | 3 | 2 | 6 | Low (Screen Out) |
