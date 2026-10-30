@@ -238,7 +238,7 @@ Rigidity Group
 ![Rigidity Organization](image/rigidity.png)
 
 Perform Group
-![Performative Organization](perform.png)
+![Performative Organization](image/perform.png)
 
 Control Group
 ![Control Organization](image/control.png)
