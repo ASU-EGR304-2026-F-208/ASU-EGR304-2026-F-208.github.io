@@ -1,57 +1,22 @@
 ---
 title: Software Proposal
 ---
+# Software Proposal
+#### Inertial Measurement Board -
 
-## Introduction
+`SPI`: Inertial Measurement Unit requires SPI to communicate the MCU<br>
+`UART`: Display Angular Measurement Data to a PuTTY Terminal using UART from Nano Debugger for verification
 
-**Bold Text**
-_Italic Text_
-**_Bold and Italic Text_**
+#### Distance Sensor Board -
 
-## Research Question
+`ADC`: Distance sensor will require amplification of an Analog Signal, so an ADC will be used to read the values and estimate angle from
+them
 
-* Bullet Point 1
-* Bullet Point 2
-* Bullet Point 3
+#### Motor Actuation Board -
 
-## Images
+`PWM`: To change the direction and speed of the DC motor, we will need to use PWM from the MCU.
 
-![image caption](https://idealab.asu.edu/assets/images/research/jumper1.png)
+#### Inter-board Communication
 
-![dead bug circuit](Image01.jpg){style width:"350" height:"300;"}
-**Figure 2:** Early PCB working design
-
-
-![showcase](ImageShowcase.png)
-**Figure 3:** Innovation Showcase Spring '25, where the products were a STEM-themed display that demonstrates a single scientific/engineering concept with the intended user of K-12 students interested in learning about science, technology, engineering, or math.
-
-
-## Results
-
-1. Numbered Point 1
-1. Numbered Point 2
-1. Numbered Point 3
-
-## Conclusions and Future Work
-
-## External Links
-
-[example link to idealab](https://idealab.asu.edu)
-
-
-## Results
-
-1. Numbered Point 1
-1. Numbered Point 2
-1. Numbered Point 3
-
-## Conclusions and Future Work
-
-## External Links
-
-[example link to idealab](https://idealab.asu.edu)
-
-
-## References
-
-
+`GPIO`: GPIO pins will be used to send binary values that represent the different states of motor direction.
+There will be states for rotating Clockwise, Counter-Clockwise, and no rotation.
