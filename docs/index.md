@@ -7,7 +7,7 @@ tags:
 <center>
 <font size="8">Self Balancing Work Bench<br>
 <font size="5">Team 208<br>
-Submission: 10, 30, 2026<br>
+Submission: 30 October 2026<br>
 Fall 2026<br>
 <font size="4">Arizona State University<br>
 EGR 304<br>
